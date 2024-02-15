@@ -1,0 +1,48 @@
+.footer{
+    background-color: palevioletred;
+    height: 30vh;
+
+    .footerContainer{
+        display: flex;
+        width: 100%;
+
+        .left-mid{
+            flex: 2;
+            background-color: blue;
+            height: 20vh;
+        }
+
+        .mid{
+            flex: 1;
+            background-color: yellow;
+            height: 20vh;
+        }
+
+        .right{
+            flex: 1;
+            background-color: green;
+            height: 20vh;
+        }
+
+    }
+    .bottomFooter{
+        display: flex;
+        padding: 20px;
+
+        .copyright{
+            display: flex;
+            width: 90vw;
+            position: relative;
+            left: 5vw;
+        }
+
+        .icons{
+            position: relative;
+            display: flex;
+            width: 10vw;
+            right: 5vw;
+            justify-content: space-evenly;
+        }
+    }
+    
+}

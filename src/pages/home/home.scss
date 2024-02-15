@@ -1,0 +1,67 @@
+.home{
+    background-image: url("../../../public/images/Cloud-migration-Blog-Banner-.jpg");
+    display: flex;
+    height: auto;
+    
+
+    .homeContainer{
+        width: 100vw;
+        position: relative;
+
+        .background{
+            display: flex;
+            background-color: black;
+            height: 100vh;
+            opacity: 0.60;
+        }
+
+        .heading-title{
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.2);
+            height: auto;
+            width: auto;
+            padding: 10px;
+            text-align: center;
+            left: 10vw;
+            top: 30vh;
+            .title{
+                color: #fff;   
+            }
+        }
+
+        .homepage-header{
+            position: absolute;
+            height: auto;
+            width: auto;
+            bottom: 40vh;
+            left: 10vw;
+
+            h1{
+                color: #fff;
+            }
+            p{
+                color: #fff;
+                width: 60vw;
+            }
+        }
+
+        .element-container{
+            display: flex;
+            width: 80vw;
+            position: absolute;
+            align-content: center;
+
+            .left{
+                flex: 2;
+                background-color: blue;
+                height: 20vh;
+            }
+
+            .right{
+                flex: 2;
+                background-color: yellow;
+                height: 20vh;
+            }
+        }
+    }
+}
