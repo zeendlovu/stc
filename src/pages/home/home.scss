@@ -5,7 +5,7 @@
     
 
     .homeContainer{
-        width: 100vw;
+        width: 100%;
         position: relative;
 
         .background{
@@ -33,7 +33,7 @@
             position: absolute;
             height: auto;
             width: auto;
-            bottom: 40vh;
+            
             left: 10vw;
 
             h1{
@@ -45,23 +45,58 @@
             }
         }
 
-        .element-container{
+        .services-header{
+            background-color: #fff;
+            height: 10vh;
+        }
+
+        .services{
             display: flex;
-            width: 80vw;
-            position: absolute;
-            align-content: center;
+            background-color: #fff;
+            height: 60vh; 
+            justify-content: space-evenly;
+            width: 100%;
+
+            .service{
+                height: 50vh;
+                width: 25%;
+                background-color: aqua;
+            }
+        }
+
+        .content-element{
+            display: flex;
+            background-color: blueviolet;
+            height: 60vh; 
 
             .left{
-                flex: 2;
-                background-color: blue;
-                height: 20vh;
+                height: 100%;
+                flex: 1;
+                background-color: brown;
             }
 
             .right{
-                flex: 2;
-                background-color: yellow;
-                height: 20vh;
+                height: 100%;
+                flex: 1;
+                background-color: cadetblue;
             }
         }
+
+        .content-elements{
+            display: flex;
+            background-color: white;
+            height: 40vh;
+            padding: 10px;
+            padding-bottom: 50px;
+
+            .element{
+                height: 100%;
+                flex: 1;
+                background-color: brown;
+                margin: 10px;
+            }
+        }
+
+        
     }
 }
