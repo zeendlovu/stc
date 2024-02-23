@@ -48,10 +48,20 @@ function Navbar() {
                 <div class="dropdown-content">
                     <a href="/#">Case Studies</a>
                     <a href="/#">Use Cases</a>
+                    <a href="/#">Our Customers</a>
+                    <a href="/#">News</a>
+                    <a href="/#">Partnerships</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn">About Us</button>
+                <div class="dropdown-content">
+                    <a href="/#">Our Story</a>
+                    <a href="/#">Our Management</a>
                 </div>
             </div>
             
-                <a href="/#">About</a>
                 <a href="/#">Contact Us</a>
 				<button
 					className="nav-btn nav-close-btn"

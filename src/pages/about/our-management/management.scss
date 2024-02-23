@@ -1,0 +1,70 @@
+.security{
+    background-position: center;
+    display: flex;
+    height: auto;
+    
+
+    .securityContainer{
+        width: 100%;
+
+        .background{
+            display: flex;
+            background-color: black;
+            height: 40vh;
+            opacity: 0.60;
+        }
+
+        .heading-title{
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0);
+            height: auto;
+            width: auto;
+            padding: 10px;
+            text-align: left;
+            left: 10vw;
+            top: 30vh;
+            .title{
+                color: #fff;   
+            }
+        }
+
+        .services{
+            display: flex;
+            background-color: #fff;
+            height: auto; 
+            justify-content: space-evenly;
+            width: 100%;
+            flex-wrap: wrap;
+            padding: 10px;
+
+            .service{
+                height: 50vh;
+                width: 25%;
+                padding: 20px;
+                margin: 20px;
+                background-color: aqua;
+                position: relative;
+                cursor: pointer;
+
+                .overlay{
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    background-color: #008CBA;
+                    overflow: hidden;
+                    width: 100%;
+                    height: 0;
+                    transition: .5s ease;
+                }
+            }
+
+            .service:hover .overlay{
+                cursor: pointer;
+                height: 100%;
+                
+            }
+
+        }        
+    }
+}
