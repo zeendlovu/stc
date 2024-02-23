@@ -1,0 +1,126 @@
+.communications{
+    background-image: url("../../../public/images/Cloud-migration-Blog-Banner-.jpg");
+    background-position: center;
+    display: flex;
+    height: auto;
+    
+
+    .communicationsContainer{
+        width: 100%;
+        position: relative;
+
+        .content-element{
+            height: fit-content;
+            background-color: #fff;
+
+            .header{
+               height: 100%; 
+                padding: 20px;
+
+                .services-header{
+                    h3{
+                        color: #232443;
+                        font-size: 40px;
+                        padding: 30px;
+                    }
+    
+                    ul li{
+                        color: #000;
+                        font-size: 20px;
+                        padding-left: 30px;
+                        list-style: none;
+                        line-height: 2;
+                    }
+                }
+
+                .benefits{
+                    padding: 30px;
+    
+                    h3{
+                        font-size: 25px;
+                        color: #232443;
+                    }
+    
+                    ul li{
+                        font-size: 20px;
+                        list-style: none;
+                        line-height: 2;
+                    }
+                }
+            }
+
+            .services-header{
+                height: 100%;
+            }
+
+        }
+
+        .background{
+            display: flex;
+            background-color: black;
+            height: 60vh;
+            opacity: 0.60;
+        }
+
+        .heading-title{
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.2);
+            height: auto;
+            width: auto;
+            padding: 10px;
+            text-align: center;
+            left: 10vw;
+            top: 30vh;
+            .title{
+                color: #fff;   
+            }
+        }
+
+        .homepage-header{
+            position: absolute;
+            height: auto;
+            width: auto;
+            
+            left: 10vw;
+
+            h1{
+                color: #fff;
+            }
+            p{
+                color: #fff;
+                width: 60vw;
+            }
+        }
+
+        .services-header{
+            background-color: #fff;
+            height: 10vh;
+        }
+
+        .services{
+            display: flex;
+            background-color: #fff;
+            height: 60vh; 
+            justify-content: space-evenly;
+            width: 100%;
+
+            .service{
+                height: 50vh;
+                width: 25%;
+                background-color: aqua;
+            }
+        }
+
+        .content-element{
+            height: fit-content;
+            background-color: #fff;
+
+
+            .services-header{
+                height: 100%;
+            }
+
+        }
+        
+    }
+}

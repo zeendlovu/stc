@@ -1,0 +1,101 @@
+.communications{
+    background-image: url("../../../public/images/Cloud-migration-Blog-Banner-.jpg");
+    background-position: center;
+    display: flex;
+    height: auto;
+    
+
+    .communicationsContainer{
+        width: 100%;
+        position: relative;
+
+        .background{
+            display: flex;
+            background-color: black;
+            height: 60vh;
+            opacity: 0.60;
+        }
+
+        .heading-title{
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.2);
+            height: auto;
+            width: auto;
+            padding: 10px;
+            text-align: center;
+            left: 10vw;
+            top: 30vh;
+            .title{
+                color: #fff;   
+            }
+        }
+
+        .content-element{
+            height: fit-content;
+            background-color: #fff;
+
+            .header{
+               height: 100%; 
+                padding: 20px;
+
+                .services-header{
+                    h3{
+                        color: #232443;
+                        font-size: 40px;
+                        padding: 30px;
+                    }
+    
+                    ul li{
+                        color: #000;
+                        font-size: 20px;
+                        padding-left: 30px;
+                        list-style: none;
+                        line-height: 2;
+                    }
+                }
+
+                .benefits{
+                    padding: 30px;
+    
+                    h3{
+                        font-size: 25px;
+                        color: #232443;
+                    }
+    
+                    ul li{
+                        font-size: 20px;
+                        list-style: none;
+                        line-height: 2;
+                    }
+                }
+
+
+            }
+
+        }
+
+        .services{
+            display: flex;
+            flex-wrap: wrap;
+            background-color: #fff;
+            padding: 20px;
+            justify-content: center;
+            width: 100%;
+
+            .service{
+                background-color: maroon;
+                height: 35vh;
+                width: 25vw;
+                margin: 10px;
+            }
+
+            .service:hover{
+                background-color: #000;
+                transition: 1s;
+                color: white;
+                cursor: pointer;
+            }
+        }
+        
+    }
+}
