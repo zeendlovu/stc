@@ -49,8 +49,6 @@ function Navbar() {
                     <a href="/#">Case Studies</a>
                     <a href="/#">Use Cases</a>
                     <a href="/#">Our Customers</a>
-                    <a href="/#">News</a>
-                    <a href="/#">Partnerships</a>
                 </div>
             </div>
 
