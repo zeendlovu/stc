@@ -1,7 +1,8 @@
 .footer{
-    background-color: palevioletred;
-    height: 30vh;
+    background-color: #232443;
+    height: auto;
     position: relative;
+    color: #bebec3;
 
     .footerContainer{
         display: flex;
@@ -9,26 +10,48 @@
 
         .left-mid{
             flex: 2;
-            background-color: blue;
-            height: 20vh;
+            background-color: #232443;
+            height: auto;
+            padding: 50px;
         }
 
         .mid{
             flex: 1;
-            background-color: yellow;
-            height: 20vh;
+            background-color: #232443;
+            height: auto;
+            padding: 50px;
+            cursor: pointer;
+
+            ul{
+                list-style: none;
+            }
+            
         }
 
         .right{
             flex: 1;
-            background-color: green;
-            height: 20vh;
+            background-color: #232443;
+            height: auto;
+            padding: 50px;
+
+            ul{
+                list-style: none;
+
+                li{
+                    a{
+                        color: #bebec3;
+                        text-decoration: none;
+                    }
+                }
+            }
+            
         }
 
     }
     .bottomFooter{
         display: flex;
         padding: 20px;
+        border-top-style: solid;
 
         .copyright{
             display: flex;
@@ -43,6 +66,7 @@
             width: 10vw;
             right: 5vw;
             justify-content: space-evenly;
+            cursor: pointer;
         }
     }
     
