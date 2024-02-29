@@ -1,18 +1,19 @@
 import './cloud.scss'
 
-function Communications(){
+function Cloud(){
     return(
-        <div className='communications'>
-          <div className='communicationsContainer'>
+        <div className='security'>
+          <div className='securityContainer'>
                 <div className='background'></div>
-           
+                
+
                 <div className='heading-title'>
-                <div className='title'>
-                    <h1>Cloud Services</h1>
-                    <p>Welcome to Zimbabwe's Cloud</p>
-                </div> 
+                    <div className='title'>
+                        <h1>Cloud Services</h1>
+                        <p>Zimbabwe's digital future.</p>
+                    </div> 
                 </div>
-  
+
                 <div className='content-element'>
                     <div className='header'>
                         <div className="services-header">
@@ -40,19 +41,30 @@ function Communications(){
                 <div className='services'>
                     <div className='service'>
                         <h1>Cloud Migration</h1>
+                        <div className='overlay'>
+                            <h1>Cloud Migration</h1>
+                        </div>
+                        
                     </div>
 
                     <div className='service'>
-                        <h1>SAP on AWS</h1>
+                            <h1>SAP on AWS</h1>
+                        <div className='overlay'>
+                            <h1>SAP on AWS</h1>
+                        </div>
                     </div>
 
                     <div className='service'>
-                        <h1>Optimise Microsoft Licenses</h1>
+                            <h1>Optimise Microsoft Licenses</h1>
+                        <div className='overlay'>
+                            <h1>Optimise Microsoft Licenses</h1>
+                        </div>
                     </div>
+                
                 </div>  
             </div>                 
         </div>
     )
 }
 
-export default Communications;
+export default Cloud;

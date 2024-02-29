@@ -40,38 +40,29 @@
                     h3{
                         color: #232443;
                         font-size: 40px;
-                        padding: 30px;
+                        padding: 15px;
                     }
     
-                    ul li{
+                    p{
                         color: #000;
                         font-size: 20px;
-                        padding-left: 30px;
-                        list-style: none;
-                        line-height: 2;
+                        text-align: justify;
+                        padding: 15px;
                     }
                 }
-
-                .benefits{
-                    padding: 30px;
-    
-                    h3{
-                        font-size: 25px;
-                        color: #232443;
-                    }
-    
-                    ul li{
-                        font-size: 20px;
-                        list-style: none;
-                        line-height: 2;
-                    }
-                }
-
-
             }
 
         }
 
+        .head{
+            h1{
+                text-align: center;
+                padding: 20px;
+            }
+            p{
+                text-align: center;
+            }
+        }
         .services{
             display: flex;
             background-color: #fff;
@@ -80,12 +71,23 @@
             width: 100%;
             flex-wrap: wrap;
             padding: 10px;
+            text-align: justify;
 
-            .service{
-                height: 50vh;
+            .service1{
+                height: auto;
                 width: 25%;
                 padding: 20px;
                 margin: 20px;
+                background-color: aqua;
+                position: relative;
+                cursor: pointer;
+            }
+
+            .service{
+                height: auto;
+                width: 45%;
+                padding: 20px;
+                margin: 10px;
                 background-color: aqua;
                 position: relative;
                 cursor: pointer;
