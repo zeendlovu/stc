@@ -1,6 +1,6 @@
 import Footer from './components/Footer/Footer.jsx';
 import Navbar from './components/Navbar/Navbar.jsx';
-import Microsoft from './pages/cloud/microsoft/Microsoft.jsx';
+import AccessControl from './pages/security/accessControl/AccessControl.jsx';
 
 
 
@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
         <Navbar />
-        <Microsoft />
+        <AccessControl />
         <Footer />
     </div>
   );
