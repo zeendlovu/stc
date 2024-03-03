@@ -45,11 +45,11 @@ function Cctv(){
                     </div>
 
                     <div className='service'>
-                            
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/tTLZAq8pVi0?si=I63B_T1Fm4LKGlsa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
                     </div>
 
                     <div className='service'>
-                            
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/8kETL5VcfGQ?si=oE2h-p7LwCuRRwGt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    
                     </div>         
 
                     <div className='service'>
@@ -69,7 +69,7 @@ function Cctv(){
                                  situation and ensure that your product, once set up, will work day and night.</p>
                     </div> 
                     <div className='service'>
-                            
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/wQCBM4-Ihoc?si=FFsSEJ908Cg3AxxZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
                     </div>             
                 </div>  
             </div>                 

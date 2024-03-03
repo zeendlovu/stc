@@ -36,15 +36,17 @@
             padding: 50px;
 
             .heading{
-                color: red;
+                color: #000;
+
+                h1{
+                    padding: 10px;
+                }
             }
 
             .header{
                 height: auto;
                 width: 100%;
-                padding: 20px;
-                margin: 20px;
-                background-color: aqua;
+                padding: 5px;
 
                 h1{
                     color: #232443;

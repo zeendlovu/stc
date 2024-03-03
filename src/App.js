@@ -1,15 +1,13 @@
 import Footer from './components/Footer/Footer.jsx';
 import Navbar from './components/Navbar/Navbar.jsx';
-import AccessControl from './pages/security/accessControl/AccessControl.jsx';
-
-
+import SystemsManager from './pages/insights/useCases/systems manager/SystemsManager.jsx';
 
 
 function App() {
   return (
     <div className="App">
         <Navbar />
-        <AccessControl />
+        <SystemsManager />
         <Footer />
     </div>
   );

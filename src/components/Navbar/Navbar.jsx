@@ -18,49 +18,49 @@ function Navbar() {
             <div class="dropdown">
                 <button class="dropbtn">Cloud Services</button>
                 <div class="dropdown-content">
-                    <a href="/#">AWS Migrations</a>
-                    <a href="/#">SAP on AWS</a>
-                    <a href="/#">Microsoft Licenses</a>
+                    <a href="/cloud/migration">AWS Migrations</a>
+                    <a href="/cloud/sap">SAP on AWS</a>
+                    <a href="/cloud/microsoft">Microsoft Licenses</a>
                 </div>
             </div>
 
             <div class="dropdown">
                 <button class="dropbtn">Communications</button>
                 <div class="dropdown-content">
-                    <a href="/#">Samsung PABX Systems</a>
-                    <a href="/#">Unified Communications System</a>
-                    <a href="/#">CRM Systems</a>
+                    <a href="/communications/samsung">Samsung PABX Systems</a>
+                    <a href="/communications/unified-comms">Unified Communications System</a>
+                    <a href="/communications/crm">CRM Systems</a>
                 </div>
             </div>
 
             <div class="dropdown">
                 <button class="dropbtn">Security Solutions</button>
                 <div class="dropdown-content">
-                    <a href="/#">CCTV</a>
-                    <a href="/#">Video Analytics (AI)</a>
-                    <a href="/#">Alarm Systems</a>
-                    <a href="/#">Access Control System</a>
+                    <a href="/security/cctv">CCTV</a>
+                    <a href="/security/video-analytics">Video Analytics (AI)</a>
+                    <a href="/security/access-control">Access Control System</a>
                 </div>
             </div>
 
             <div class="dropdown">
                 <button class="dropbtn">Insights</button>
                 <div class="dropdown-content">
-                    <a href="/#">Case Studies</a>
-                    <a href="/#">Use Cases</a>
-                    <a href="/#">Our Customers</a>
+                    <a href="/insights/control-tower">Case Studies</a>
+                    <a href="/insights/config">Use Cases</a>
+                    <a href="/insights/systems-manager">Our Customers</a>
                 </div>
             </div>
 
             <div class="dropdown">
                 <button class="dropbtn">About Us</button>
                 <div class="dropdown-content">
-                    <a href="/#">Our Story</a>
-                    <a href="/#">Our Management</a>
+                    <a href="/about/story">Our Story</a>
+                    <a href="/about/management">Our Management</a>
                 </div>
             </div>
-            
-                <a href="/#">Contact Us</a>
+            <div class="dropdown">
+                <button class="dropbtn">Contact Us</button>
+            </div>
 				<button
 					className="nav-btn nav-close-btn"
 					onClick={showNavbar}>

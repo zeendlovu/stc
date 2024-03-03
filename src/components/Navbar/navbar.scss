@@ -8,10 +8,10 @@
 }
 
 :root {
-	--mainColor: #29335c;
+	--mainColor: #232443;
 	--mainColorLight: #5767aa;
-	--secondaryColor: #db2b39;
-	--textColor: #eee;
+	--secondaryColor: yellow;
+	--textColor: #bebec3;
 }
 
 header {
@@ -103,6 +103,7 @@ nav {
     padding: 16px;
     font-size: 16px;
     border: none;
+	cursor: pointer;
   }
 
   .dropbtn:hover{
@@ -133,7 +134,7 @@ nav {
   }
   
   .dropdown-content a:hover {
-    color: var(--secondaryColor);
+    color: #bebec3;
     transition: 0.7s;
 }
   
