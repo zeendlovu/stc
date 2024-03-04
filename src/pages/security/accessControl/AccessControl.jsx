@@ -2,8 +2,8 @@ import './accessControl.scss'
 
 function AccessControl(){
     return(
-        <div className='security'>
-          <div className='securityContainer'>
+        <div className='access'>
+          <div className='accessContainer'>
                 <div className='background'></div>
                 
 

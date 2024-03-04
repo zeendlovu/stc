@@ -2,8 +2,8 @@ import './unifiedComms.scss'
 
 function UnifiedComms(){
     return(
-        <div className='security'>
-          <div className='securityContainer'>
+        <div className='unified'>
+          <div className='unifiedContainer'>
                 <div className='background'></div>
                 
 

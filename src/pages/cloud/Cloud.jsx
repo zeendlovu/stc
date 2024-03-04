@@ -2,8 +2,8 @@ import './cloud.scss'
 
 function Cloud(){
     return(
-        <div className='security'>
-          <div className='securityContainer'>
+        <div className='cloud'>
+          <div className='cloudContainer'>
                 <div className='background'></div>
                 
 

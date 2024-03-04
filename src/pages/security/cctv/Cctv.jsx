@@ -2,8 +2,8 @@ import './cctv.scss'
 
 function Cctv(){
     return(
-        <div className='security'>
-          <div className='securityContainer'>
+        <div className='cctv'>
+          <div className='cctvContainer'>
                 <div className='background'></div>
                 
 

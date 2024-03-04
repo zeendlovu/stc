@@ -2,8 +2,8 @@ import './migration.scss'
 
 function Migration(){
     return(
-        <div className='security'>
-          <div className='securityContainer'>
+        <div className='migration'>
+          <div className='migrationContainer'>
                 <div className='background'></div>
                 
 

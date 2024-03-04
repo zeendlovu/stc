@@ -2,8 +2,8 @@ import './videoAnalytics.scss'
 
 function VideoAnalytics(){
     return(
-        <div className='security'>
-          <div className='securityContainer'>
+        <div className='videoAnalytics'>
+          <div className='videoContainer'>
                 <div className='background'></div>
                 
 

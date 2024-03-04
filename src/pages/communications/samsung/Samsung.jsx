@@ -2,8 +2,8 @@ import './samsung.scss'
 
 function Samsung(){
     return(
-        <div className='security'>
-          <div className='securityContainer'>
+        <div className='samsung'>
+          <div className='samsungContainer'>
                 <div className='background'></div>
                 
 

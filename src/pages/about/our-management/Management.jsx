@@ -2,8 +2,8 @@ import './management.scss'
 
 function Management(){
     return(
-        <div className='security'>
-          <div className='securityContainer'>
+        <div className='management'>
+          <div className='managementContainer'>
                 <div className='background'></div>
            
                 <div className='heading-title'>

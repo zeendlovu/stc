@@ -2,8 +2,8 @@ import './sap.scss'
 
 function Sap(){
     return(
-        <div className='security'>
-          <div className='securityContainer'>
+        <div className='sap'>
+          <div className='sapContainer'>
                 <div className='background'></div>
                 
 

@@ -2,8 +2,8 @@ import './crm.scss'
 
 function CRM(){
     return(
-        <div className='security'>
-          <div className='securityContainer'>
+        <div className='crm'>
+          <div className='crmContainer'>
                 <div className='background'></div>
                 
 

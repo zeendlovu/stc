@@ -2,8 +2,8 @@ import './microsoft.scss'
 
 function Microsoft(){
     return(
-        <div className='security'>
-          <div className='securityContainer'>
+        <div className='microsoft'>
+          <div className='microsoftContainer'>
                 <div className='background'></div>
                 
 

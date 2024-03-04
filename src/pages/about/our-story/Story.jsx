@@ -3,8 +3,8 @@ import './story.scss'
 
 function Story(){
     return(
-        <div className='security'>
-            <div className='securityContainer'>
+        <div className='story'>
+            <div className='storyContainer'>
                 <div className='background'></div>
                 <div className='heading-title'>
                     <div className='title'>

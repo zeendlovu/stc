@@ -26,8 +26,8 @@ const header = headers.map(header =>
                     </div>)
 
     return(
-        <div className='security'>
-          <div className='securityContainer'>
+        <div className='systemsManager'>
+          <div className='systemsManagerContainer'>
                 <div className='background'></div>
                 <div className='heading-title'>
                 <div className='title'>

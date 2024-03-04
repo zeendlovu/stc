@@ -54,12 +54,14 @@ function Navbar() {
             <div class="dropdown">
                 <button class="dropbtn">About Us</button>
                 <div class="dropdown-content">
-                    <a href="/about/story">Our Story</a>
-                    <a href="/about/management">Our Management</a>
+                    <a href="/about/our-story">Our Story</a>
+                    <a href="/about/our-management">Our Management</a>
                 </div>
             </div>
             <div class="dropdown">
-                <button class="dropbtn">Contact Us</button>
+                <button class="dropbtn">
+                <a href="/contact-us">Contact Us</a>
+                    </button>
             </div>
 				<button
 					className="nav-btn nav-close-btn"

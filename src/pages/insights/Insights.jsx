@@ -2,8 +2,8 @@ import './insights.scss'
 
 function Insights(){
     return(
-        <div className='security'>
-          <div className='securityContainer'>
+        <div className='insights'>
+          <div className='insightsContainer'>
                 <div className='background'></div>
            
                 <div className='heading-title'>
