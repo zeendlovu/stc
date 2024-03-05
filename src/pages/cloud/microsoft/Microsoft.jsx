@@ -1,10 +1,13 @@
 import './microsoft.scss'
+import windows from '../../../static/images/windows.png'
 
 function Microsoft(){
     return(
         <div className='microsoft'>
           <div className='microsoftContainer'>
-                <div className='background'></div>
+                <div className='background'>
+                <img src={windows} alt='cloud' width='100%' />
+                </div>
                 
 
                 <div className='heading-title'>

@@ -1,5 +1,6 @@
 import './systemsManager.scss'
 import {caseStudies, headers, useCases} from './data.js'
+import aws_use_case from '../../../../static/images/aws_use_case.png'
 
 function SystemsManager(){
 
@@ -28,7 +29,9 @@ const header = headers.map(header =>
     return(
         <div className='systemsManager'>
           <div className='systemsManagerContainer'>
-                <div className='background'></div>
+                <div className='background'>
+                <img src={aws_use_case} alt='cloud' width='100%' />
+                </div>
                 <div className='heading-title'>
                 <div className='title'>
                     <h1>AWS Systems Manager</h1>
@@ -49,7 +52,7 @@ const header = headers.map(header =>
                     </div>
 
                     <div className='heading'>
-                        <h1>Case Studies - AWS Config</h1>
+                        <h1>Case Studies - AWS Systems Manager</h1>
                     </div>
                     {caseStudy}
                 </div>

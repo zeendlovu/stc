@@ -1,11 +1,13 @@
 import './story.scss'
-
+import about from '../../../static/images/about.jpg'
 
 function Story(){
     return(
         <div className='story'>
             <div className='storyContainer'>
-                <div className='background'></div>
+                <div className='background'>
+                <img src={about} alt='cloud' width='100%' />
+                </div>
                 <div className='heading-title'>
                     <div className='title'>
                         <h1>Our Story</h1>

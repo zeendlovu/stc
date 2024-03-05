@@ -10,13 +10,12 @@
         .background{
             display: flex;
             background-color: black;
-            height: 40vh;
-            opacity: 0.60;
+            height: 50vh;
         }
 
         .heading-title{
             position: absolute;
-            background-color: rgba(255, 255, 255, 0);
+            background-color: rgba(255, 255, 255, 0.1);
             height: auto;
             width: auto;
             padding: 10px;

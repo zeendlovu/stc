@@ -1,10 +1,13 @@
 import './videoAnalytics.scss'
+import videoAnalytics from '../../../static/images/videoAnalytics1.jpg'
 
 function VideoAnalytics(){
     return(
         <div className='videoAnalytics'>
           <div className='videoContainer'>
-                <div className='background'></div>
+                <div className='background'>
+                <img src={videoAnalytics} alt='cloud' width='100%' />
+                </div>
                 
 
                 <div className='heading-title'>

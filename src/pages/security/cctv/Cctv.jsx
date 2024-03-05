@@ -1,10 +1,13 @@
 import './cctv.scss'
+import cctv from '../../../static/images/1682336849310.jpeg'
 
 function Cctv(){
     return(
         <div className='cctv'>
           <div className='cctvContainer'>
-                <div className='background'></div>
+                <div className='background'>
+                <img src={cctv} alt='cloud' width='100%' />
+                </div>
                 
 
                 <div className='heading-title'>

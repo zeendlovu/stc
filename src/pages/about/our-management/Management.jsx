@@ -1,10 +1,13 @@
 import './management.scss'
+import about from '../../../static/images/about.jpg'
 
 function Management(){
     return(
         <div className='management'>
           <div className='managementContainer'>
-                <div className='background'></div>
+                <div className='background'>
+                <img src={about} alt='cloud' width='100%' />
+                </div>
            
                 <div className='heading-title'>
                 <div className='title'>

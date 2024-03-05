@@ -1,5 +1,6 @@
 import './controltower.scss'
 import {caseStudies, headers, useCases} from './data.js'
+import aws_use_case from '../../../../static/images/aws_use_case.png'
 
 
 function ControlTower(){
@@ -29,7 +30,9 @@ const header = headers.map(header =>
     return(
         <div className='controlTower'>
           <div className='controlTowerContainer'>
-                <div className='background'></div>
+                <div className='background'>
+                <img src={aws_use_case} alt='cloud' width='100%' />
+                </div>
                 <div className='heading-title'>
                 <div className='title'>
                     <h1>AWS Control Tower</h1>

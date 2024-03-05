@@ -1,10 +1,13 @@
 import './accessControl.scss'
+import accessControl from '../../../static/images/access control.jpg'
 
 function AccessControl(){
     return(
         <div className='access'>
           <div className='accessContainer'>
-                <div className='background'></div>
+                <div className='background'>
+                <img src={accessControl} alt='cloud' width='100%' />
+                </div>
                 
 
                 <div className='heading-title'>

@@ -1,5 +1,6 @@
 import './config.scss'
 import {caseStudies, headers, useCases} from './data.js'
+import aws_use_case from '../../../../static/images/aws_use_case.png'
 
 function Config(){
 
@@ -28,7 +29,9 @@ const header = headers.map(header =>
     return(
         <div className='config'>
           <div className='configContainer'>
-                <div className='background'></div>
+                <div className='background'>
+                <img src={aws_use_case} alt='cloud' width='100%' />
+                </div>
                 <div className='heading-title'>
                 <div className='title'>
                     <h1>AWS Config</h1>

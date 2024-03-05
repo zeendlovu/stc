@@ -1,10 +1,13 @@
 import './migration.scss'
+import Cloud from '../../../static/images/cloud.webp'
 
 function Migration(){
     return(
         <div className='migration'>
           <div className='migrationContainer'>
-                <div className='background'></div>
+                <div className='background'>
+                <img src={Cloud} alt='cloud' width='100%' />
+                </div>
                 
 
                 <div className='heading-title'>

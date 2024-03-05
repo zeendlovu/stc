@@ -1,13 +1,16 @@
 import './contact.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter, faFacebook, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import contact from '../../../src/static/images/contactus.jpg'
 
 
 function Contact(){
     return(
         <div className='security'>
             <div className='securityContainer'>
-                <div className='background'></div>
+                <div className='background'>
+                <img src={contact} alt='cloud' width='100%' />
+                </div>
                 <div className='heading-title'>
                     <div className='title'>
                         <h1>Contact Us</h1>
@@ -28,9 +31,9 @@ function Contact(){
 
                         <h1>Connect With Us</h1>
                         <div className='socials'>  
-                            <h1><FontAwesomeIcon icon={faTwitter} /></h1>
-                            <h1><FontAwesomeIcon icon={faFacebook} /></h1>
-                            <h1><FontAwesomeIcon icon={faLinkedin} /></h1>
+                            <h1><a href='https://x.com/zw_stc?s=20'><FontAwesomeIcon icon={faTwitter} /></a></h1>
+                            <h1><a href='https://www.facebook.com/profile.php?id=100066625576145'><FontAwesomeIcon icon={faFacebook} /></a></h1>
+                            <h1><a href='https://www.linkedin.com/company/standard-telephones-and-cables-private-limited-zimbabwe/mycompany/'><FontAwesomeIcon icon={faLinkedin} /></a></h1>
                         </div>
                     </div>
 

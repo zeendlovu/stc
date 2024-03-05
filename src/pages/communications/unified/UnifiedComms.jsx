@@ -1,10 +1,13 @@
 import './unifiedComms.scss'
+import business from '../../../static/images/business comms.webp'
 
 function UnifiedComms(){
     return(
         <div className='unified'>
           <div className='unifiedContainer'>
-                <div className='background'></div>
+                <div className='background'>
+                <img src={business} alt='cloud' width='100%' />
+                </div>
                 
 
                 <div className='heading-title'>

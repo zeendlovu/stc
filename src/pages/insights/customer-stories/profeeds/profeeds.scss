@@ -1,0 +1,95 @@
+.profeeds{
+    background-position: center;
+    display: flex;
+    height: auto;
+    
+
+    .profeedsContainer{
+        width: 100%;
+
+        h2{
+            padding: 30px;
+        }
+
+        .background{
+            display: flex;
+            height: 50vh;
+            opacity: 1;
+        }
+
+        .heading-title{
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.2);
+            height: auto;
+            width: auto;
+            padding: 10px;
+            text-align: left;
+            left: 10vw;
+            top: 30vh;
+            .title{
+                color: #fff;   
+            }
+        }
+
+        .services{
+            display: flex;
+            background-color: #fff;
+            height: auto; 
+            width: 80%;
+            flex-wrap: wrap;
+            text-align: justify;
+            margin-left: auto;
+            margin-right: auto;
+            
+
+            .service{
+                height: auto;
+                width: 60%;
+                padding: 10px;
+                margin: 10px;
+                position: relative;
+
+                p{
+                    padding: 10px;
+                }
+                h1{
+                    padding: 10px;
+                }
+            }
+
+            .service1{
+                height: auto;
+                padding: 20px;
+                margin: 10px;
+                width: 30%;
+                position: relative;
+                flex: 2;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+                img{
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 50%;
+                }
+            
+            }
+
+            .solution{
+                height: auto;
+                width: 100%;
+                padding: 20px;
+                position: relative;
+
+                p{
+                    padding: 10px;
+                }
+
+                h1{
+                    padding: 10px;
+                }
+            }
+
+        }        
+    }
+}

@@ -25,6 +25,12 @@ import Config from './pages/insights/useCases/config/Config.jsx'
 import ControlTower from './pages/insights/useCases/control-tower/ControlTower.jsx'
 import SystemsManager from './pages/insights/useCases/systems manager/SystemsManager.jsx'
 
+//Insights - customer stories
+import Gain from './pages/insights/customer-stories/gain/Gain.jsx'
+import Simbisa from './pages/insights/customer-stories/simbisa/Simbisa.jsx'
+import Profeeds from './pages/insights/customer-stories/profeeds/Profeeds.jsx'
+import Tvsh from './pages/insights/customer-stories/tvsh/Tvsh.jsx'
+
 //About
 import Story from './pages/about/our-story/Story.jsx'
 import Management from './pages/about/our-management/Management.jsx'
@@ -71,11 +77,20 @@ function App() {
                 </Routes>
 
                 <Routes>
-                  {/* Insights Section */}
+                  {/* Insights Section - Use Cases*/}
                   <Route exact path="/insights" element={<Insights />} />
                     <Route path="/insights/systems-manager" element={<SystemsManager />} />
                     <Route path="/insights/config" element={<Config />} />
                     <Route path="/insights/control-tower" element={<ControlTower />} />
+                </Routes>
+
+                <Routes>
+                  {/* Insights Section - Case Studies */}
+                  <Route exact path="/insights" element={<Insights />} />
+                    <Route path="/insights/gain" element={<Gain />} />
+                    <Route path="/insights/simbisa" element={<Simbisa />} />
+                    <Route path="/insights/profeeds" element={<Profeeds />} />
+                    <Route path="/insights/tvsh" element={<Tvsh />} />
                 </Routes>
 
                 <Routes>

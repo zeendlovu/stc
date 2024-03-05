@@ -13,7 +13,7 @@ function Navbar() {
 
 	return (
 		<header>
-			<h3>LOGO</h3>
+            <h3><a href='/'>LOGO</a></h3>
 			<nav ref={navRef}>
             <div class="dropdown">
                 <button class="dropbtn">Cloud Services</button>
@@ -45,9 +45,15 @@ function Navbar() {
             <div class="dropdown">
                 <button class="dropbtn">Insights</button>
                 <div class="dropdown-content">
-                    <a href="/insights/control-tower">Case Studies</a>
-                    <a href="/insights/config">Use Cases</a>
-                    <a href="/insights/systems-manager">Our Customers</a>
+                    <h3 style={{ color: "#232443", padding: '0px 15px' }}>Use Cases</h3>
+                    <a href="/insights/control-tower">AWS Control Tower</a>
+                    <a href="/insights/config">AWS Config</a>
+                    <a href="/insights/systems-manager">AWS Systems Manager</a>
+                    <h3 style={{ color: "#232443", padding: '0px 15px' }}>Case Studies</h3>
+                    <a href="/insights/gain">Gain Cash and Carry</a>
+                    <a href="/insights/simbisa">Simbisa</a>
+                    <a href="/insights/profeeds">Profeeds</a>
+                    <a href="/insights/tvsh">TV Sales and Home</a>
                 </div>
             </div>
 

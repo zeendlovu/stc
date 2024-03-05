@@ -1,10 +1,13 @@
 import './sap.scss'
+import sap from '../../../static/images/sap.jpg'
 
 function Sap(){
     return(
         <div className='sap'>
           <div className='sapContainer'>
-                <div className='background'></div>
+                <div className='background'>
+                <img src={sap} alt='cloud' width='100%' />
+                </div>
                 
 
                 <div className='heading-title'>

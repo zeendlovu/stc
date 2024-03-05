@@ -1,10 +1,13 @@
 import './crm.scss'
+import crm from '../../../static/images/crm.png'
 
 function CRM(){
     return(
         <div className='crm'>
           <div className='crmContainer'>
-                <div className='background'></div>
+                <div className='background'>
+                <img src={crm} alt='cloud' width='100%' />
+                </div>
                 
 
                 <div className='heading-title'>

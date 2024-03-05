@@ -17,15 +17,30 @@
 
         .heading-title{
             position: absolute;
-            background-color: rgba(255, 255, 255, 0.2);
             height: auto;
-            width: auto;
             padding: 10px;
-            text-align: center;
             left: 10vw;
             top: 30vh;
+
             .title{
-                color: #fff;   
+                color: #fff; 
+                
+                p{
+                    background-color: rgba(255, 255, 255, 0.2);
+                    padding: 10px;
+                    width: 40vw;
+                }
+
+                h1{
+                    padding: 10px;
+                }
+
+                .message{
+                    background-color: transparent;
+                    text-align: justify;
+                    padding: 10px;
+                    width: 50vw;
+                }
             }
         }
 
