@@ -11,7 +11,7 @@
         .background{
             display: flex;
             background-color: black;
-            height: 100vh;
+            height: 80vh;
             opacity: 0.60;
         }
 
@@ -48,37 +48,50 @@
         .services-header{
             background-color: #fff;
             height: 10vh;
+            padding: 60px;
+            left: 50px;
+            padding-left: 150px;
         }
 
         .services{
             display: flex;
             background-color: #fff;
-            height: 60vh; 
-            justify-content: space-evenly;
+            height: 50vh; 
+            justify-content: center;
+            column-gap: 40px;
             width: 100%;
 
             .service{
                 height: 50vh;
                 width: 25%;
-                background-color: aqua;
             }
         }
 
         .content-element{
             display: flex;
-            background-color: blueviolet;
+            background-color: #fff;
             height: 60vh; 
 
             .left{
                 height: 100%;
                 flex: 1;
-                background-color: brown;
+                padding: 50px;
             }
 
             .right{
                 height: 100%;
                 flex: 1;
-                background-color: cadetblue;
+                padding: 50px;
+                text-align: justify;
+            }
+        }
+
+        .service-header{
+            background-color: #fff;
+            padding: 30px;
+
+            h1{
+                text-align: center;
             }
         }
 
@@ -92,7 +105,6 @@
             .element{
                 height: 100%;
                 flex: 1;
-                background-color: brown;
                 margin: 10px;
             }
         }
