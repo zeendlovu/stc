@@ -1,7 +1,7 @@
 import './crm.scss'
 import crm from '../../../static/images/crm.png'
 
-function CRM(){
+function Crm(){
     return(
         <div className='crm'>
           <div className='crmContainer'>
@@ -119,4 +119,4 @@ function CRM(){
     )
 }
 
-export default CRM;
+export default Crm;
