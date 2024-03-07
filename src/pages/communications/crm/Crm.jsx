@@ -1,18 +1,8 @@
 import './crm.scss'
 import crm from '../../../static/images/crm.png'
-import Box from '@mui/material/Box';
-import Tab from '@mui/material/Tab';
-import TabContext from '@mui/lab/TabContext';
-import TabList from '@mui/lab/TabList';
-import TabPanel from '@mui/lab/TabPanel';
-import { useState } from 'react'
+
 
 function Crm(){
-    const [value, setValue] = useState('1');
-
-  const handleChange = (event, newValue) => {
-    setValue(newValue);
-  };
     return(
         <div className='crm'>
           <div className='crmContainer'>
@@ -43,99 +33,204 @@ function Crm(){
                     </div>
                 </div>
                 <div className='head'>
-                    <h1>Products Supported</h1>
-                </div>
-                <div className='content-element'>
-                    <div className='header'>
-                        <div className="services-header">
-                        <TabContext value={value}>
-  <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-    <TabList onChange={handleChange} aria-label="lab API tabs example">
-      <Tab label="Item One" value="1" />
-      <Tab label="Item Two" value="2" />
-      <Tab label="Item Three" value="3" />
-    </TabList>
-  </Box>
-  <TabPanel value="1">Item One</TabPanel>
-  <TabPanel value="2">Item Two</TabPanel>
-  <TabPanel value="3">Item Three</TabPanel>
-</TabContext>
-                                <p>Choosing a phone system for your business requires careful consideration. You want it to serve your business 
-                                    well, now and into the future. Your telephone system must be able to scale with your business’ growth, 
-                                    without breaking the bank in the process. Our unified communication system is an open-platform, VoIP 
-                                    communication system that works with popular IP Phones and SIP trunks whether on premise or in the cloud. 
-                                    It eliminates the cost and management headaches of outdated, traditional phone systems or the limitations 
-                                    of shared cloud PBXs.</p>
-                                    <p>You decide where to run your communication system. You can run the system on an 
-                                        existing server or in the cloud, either way you are in control.</p>
-                        </div>
-                    </div>
+                    <h1>Products Features</h1>
                 </div>
 
                 <div className='head'>
-                    <h1>Product Features</h1>
+                    <h2>Ticketing Made Easy</h2>
                 </div>
 
                 <div className='services'>
                     <div className='service'>
-                        <h1>Samsung Digital Communication System (DCS) Telephones</h1>
-                        <p>The Samsung Digital Communication System (DCS) Telephones offer a user friendly design with easy access to 
-                            system features. Samsung Handsets can be connected to telephone systems ( IP or PBX ) to allow a full 
-                            connectivity and collaboration among offices and businesses.</p>
-                        <p>This digital telephone is intended to be connected as a digital extension of a Samsung PABX telephone system 
-                            (OfficeServ7030,7070,7100,7200 and 7400). The connection allows voice communication between the central
-                             processor unit and the telephone. It is not intended to be connected to any other telephone system or 
-                             the public tele-phone network. Some of the features include three way conference call and voicemail 
-                             features.</p>                
+                        <h3>Agent Collision Detection</h3>
+                        <p>Ensure that multiple agents don’t wind up working on the same ticket by accident.</p>                
                     </div>
 
                     <div className='service'>
-                            <h1>Samsung OfficeServ 7030 IP PABX Phone System</h1>
-                            <p>OfficeServ 7030 is the best communication product for offices with 4 to 20 lines and provides 
-                                advanced functions including voice and applications. Users can enjoy various phone functions
-                                 and applications using the various devices such as digital phones, IP phones, WLAN phones,
-                                  PCs and servers.</p>
-                                 <ul>
-                                    <li>Offers small businesses an unrivalled level of features and functional flexibility</li>
-                                    <li>Offer 1 to 20 extensions</li>
-                                    <li>Can be configured with a full range of analog, digital and IP trunks and extensions</li>
-                                    <li>Affordable & flexible configuration options, Analogue or Digital Capabilities</li>
-                                    <li>Caller ID, name and number available</li>
-                                    <li>VoIP Technology.</li>
-                                 </ul>
+                            <h3>Ticket Field Suggest</h3>
+                            <p>Automatically suggest ticket fields to categorize, prioritize and route incoming tickets.</p>
+                                
+                    </div> 
+
+                    <div className='service'>
+                            <h3>SLA Management</h3>
+                            <p>Set deadlines for ticket response and resolution based on different business hours or categories.</p>         
+                    </div> 
+
+                    <div className='service'>
+                            <h3>Thank you detector</h3>
+                            <p>Prevent reopening of tickets when customers respond with a thank you</p>         
+                    </div> 
+                    <div className='service'>
+                            <h3>Canned Responses</h3>
+                            <p>Provide quick, consistent responses to common questions by creating pre-formatted replies.</p>         
+                    </div> 
+                </div>
+
+                <div className='head'>
+                    <h2>Collaboration</h2>
+                </div>
+
+                <div className='services'>
+                    <div className='service'>
+                        <h3>Team Huddle</h3>
+                        <p>Discuss specific parts of tickets with experts from across your company to figure out the best solutions.</p>                
                     </div>
 
                     <div className='service'>
-                            <h1>Samsung OfficeServ 7070 IP PABX Phone System</h1>
-                            <p>Samsung OfficeServ 7070 is an IP-PBX optimized for small and medium sized businesses having less than 50 employees.
-                            It supports not only VoIP communications, but works perfectly with existing communication infrastructures</p>
-                            <ul>
-                                    <li>Supports all the call functions of the existing PBX Full compatibility with the OfficeServ 
-                                        7000 series using identical S/W and terminals</li>
-                                    <li>Scalability of multiple service boards into the universal slot</li>
-                                    <li>Various line groups can be configured through expansion in 4-line unit</li>
-                                    <li>Supports 8 VoIP channels without additional equipment</li>
-                                    <li>An integrated VoIP network can provide seamless collaboration with a remote office</li>
-                                    <li>Supports Voice Mail, Auto Attendant, and CID function without additional equipment Equipped 
-                                        with Internal MOH, External MOH, Paging, and Contact</li>
-                                 </ul>
-                    </div>
+                            <h3>Shared Ownership</h3>
+                            <p>Share ownership of tickets with other teams without losing visibility into progress being made on the issue.</p>
+                                
+                    </div> 
+
                     <div className='service'>
-                        <h1>Samsung OfficeServ 7400 IP PABX Phone System</h1>
-                            <p>The Samsung OfficeServ 7400 is Samsung’s premier telephone system. The OfficeServ 7400 features a robust feature
-                                 package including converged voice and data, VoIP, unified messaging and wireless keysets.</p>
-                            <ul>
-                                    <li>Simultaneously supports traditional voice communication, VoIP, IP-based data communication and wireless 
-                                        solutions through wireless LANs</li>
-                                    <li>Provides gigabit Ethernet backbone alongside Layer 2/3 LAN switching capabitlies to carry your evolving traffic needs</li>
-                                    <li>Integrates your firewall, VPN, and intrusion Detection System (IDS)</li>
-                                    <li>Feature Rich functionality with call forwarding, caller ID, call overflow options, speed calling and wireless service options</li>
-                                    <li>Supports up to 480 phones in a single site or thousands of users in a multisite network</li>
-                                    <li>Handles any of Samsung’s wired, wireless, digital, IP and analogue range of handsets</li>
-                                    <li>Perfect for medium to large businesses</li>
-                                 </ul>
-                    </div>              
+                            <h3>Linked Tickets</h3>
+                            <p>Link related tickets together to keep track of widespread issues and deliver consistent responses.</p>         
+                    </div> 
+
+                    <div className='service'>
+                            <h3>Parent-child ticketing</h3>
+                            <p>Resolve complex, multi-stage issues faster by splitting them into smaller child tickets.</p>         
+                    </div> 
+
+                </div>
+
+                <div className='head'>
+                    <h2>Omni Channel Communication</h2>
+                </div>
+
+                <div className='services'>
+                    <div className='service'>
+                        <h3>Email</h3>
+                        <p>Convert support emails into trackable tickets in your helpdesk that you can manage and resolve.</p>                
+                    </div>
+
+                    <div className='service'>
+                            <h3>Phone</h3>
+                            <p>Set up a fully functional call center and record and track calls by converting them into tickets.</p>
+                                
+                    </div> 
+
+                    <div className='service'>
+                            <h3>Phone</h3>
+                            <p>Engage, support, and retain customers through live chat.</p>         
+                    </div> 
+
+                    <div className='service'>
+                            <h3>Social Media</h3>
+                            <p>Integrate your company’s Facebook page and Twitter handles and manage them from within the helpdesk.</p>         
+                    </div> 
+                    <div className='service'>
+                            <h3>Website</h3>
+                            <p>Let customers raise tickets from your website and display related knowledge base articles as they type.</p>         
+                    </div> 
+                    <div className='service'>
+                            <h3>WhatsApp</h3>
+                            <p>Engage your customers instantly through WhatsApp and resolve their queries faster.</p>         
+                    </div> 
                 </div>  
+
+                <div className='head'>
+                    <h2>Filed Service Management</h2>
+                </div>
+
+                <div className='services'>
+                    <div className='service'>
+                        <h3>Service Tasks</h3>
+                        <p>Create service tasks for tickets that need a field team response and track its status to completion.</p>                
+                    </div>
+
+                    <div className='service'>
+                            <h3>Service Groups</h3>
+                            <p>Create field technician groups based on location, priority and other factors to reduce waiting time and boost first-time fix rates.</p>
+                                
+                    </div> 
+
+                    <div className='service'>
+                            <h3>Scheduling Dashboard</h3>
+                            <p>Drag and drop appointments, assign tasks and get a bird’s eye view of your field team workload.</p>         
+                    </div> 
+
+                    <div className='service'>
+                            <h3>Mobile field service</h3>
+                            <p>Enable field technicians to pick up service tasks, update information and resolve issues on the go.</p>         
+                    </div> 
+                    <div className='service'>
+                            <h3>time tracking</h3>
+                            <p>Automatically track time spent working in the field with the mobile app and log your billable hours.</p>         
+                    </div> 
+                </div>  
+
+                <div className='head'>
+                    <h2>Helpdesk Automation</h2>
+                </div>
+
+                <div className='services'>
+                    <div className='service'>
+                        <h3>Ticket Dispatch</h3>
+                        <p>Automatically assign tickets to agents and groups based on keywords, requester or properties.</p>                
+                    </div>
+
+                    <div className='service'>
+                            <h3>Time-triggered dispatch</h3>
+                            <p>Execute maintenance activities on tickets based on the time lapsed since an event happened.</p>
+                                
+                    </div> 
+
+                    <div className='service'>
+                            <h3>Intelligent Ticket Assignment</h3>
+                            <p>Assign tickets to agents based on their current workload, skill or using the round robin method.</p>         
+                    </div> 
+
+                    <div className='service'>
+                            <h3>Event-triggered automation</h3>
+                            <p>Implement one or more actions on specific tickets as soon as an event happens.</p>         
+                    </div> 
+                    <div className='service'>
+                            <h3>Automatic email notification</h3>
+                            <p>Notify customers and agents automatically about the changes happening in their ticket.</p>         
+                    </div> 
+                    <div className='service'>
+                            <h3>Omniroute</h3>
+                            <p>Auto-assigns emails, chats and calls to your agents based on their available bandwidth to support customers faster.</p>         
+                    </div> 
+                </div>  
+
+                <div className='head'>
+                    <h2>Self Service Customer Portal</h2>
+                </div>
+
+                <div className='services'>
+                    <div className='service'>
+                        <h3>Curated Reports</h3>
+                        <p>Understand how different agents and groups are performing based on various helpdesk metrics.</p>                
+                    </div>
+
+                    <div className='service'>
+                            <h3>Customer Satisfaction ratings</h3>
+                            <p>Gauge how customers feel about your support using customer satisfaction reports.</p>
+                                
+                    </div> 
+
+                    <div className='service'>
+                            <h3>Dashboard</h3>
+                            <p>Monitor your helpdesk using real-time data about tickets, trends and groups.</p>         
+                    </div> 
+
+                    <div className='service'>
+                            <h3>Custom Reports</h3>
+                            <p>Build reports from scratch and customize them to suit your requirements.</p>         
+                    </div> 
+                    <div className='service'>
+                            <h3>Feedback Mechanism</h3>
+                            <p>Writers will be notified automatically about feedback on their articles so they can implement them</p>         
+                    </div> 
+                    <div className='service'>
+                            <h3>Automatically suggest solutions</h3>
+                            <p>Allow relevant solutions to pop up for customers and save time for your agents and customers.</p>         
+                    </div> 
+                </div>
+
             </div>                 
         </div>
     )
