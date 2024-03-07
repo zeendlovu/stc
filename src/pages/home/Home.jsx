@@ -21,13 +21,15 @@ const style = {
   left: '50%',
   transform: 'translate(-50%, -50%)',
   width: '80%',
-  height: '80%',
+  height: '50%',
   bgcolor: 'background.paper',
   boxShadow: 24,
   p: 4,
 };
 
-const KeepMountedModal = ({ isOpen, onClose, title, content, header1, header2, header3 }) => {
+const KeepMountedModal = ({ isOpen, onClose, title, content, header1, header2, paragraph, list}) => {
+
+
   return (
     <Modal
       keepMounted
@@ -43,6 +45,9 @@ const KeepMountedModal = ({ isOpen, onClose, title, content, header1, header2, h
         <Typography id="keep-mounted-modal-description" sx={{ mt: 2 }}>
           <h3>{header1}</h3>
           {content}
+          <h4>{ header2 }</h4>
+          { paragraph } <br></br>
+          {list}
         </Typography>
       </Box>
     </Modal>
@@ -91,9 +96,17 @@ const Home = () => {
               <KeepMountedModal
               isOpen={modal1Open}
               onClose={handleModal1Close}
-              title="Cloud Services"
-              header1= "Migration"
-              content="Content for Modal 1 goes here."
+              title="Introducing Amazon Web Services (AWS)"
+              header1= "What is AWS"
+              content="Amazon Web Services, Inc. (AWS) is a subsidiary of Amazon that provides on-demand cloud computing 
+              platforms and APIs to individuals, companies, and governments, on a metered, pay-as-you-go basis. Clients will 
+              often use this in combination with autoscaling (a process that allows a client to use more computing in times 
+                of high application usage, and then scale down to reduce costs when there is less traffic). These cloud 
+                computing web services provide various services related to networking, compute, storage, middleware, IoT 
+                and other processing capacity, as well as software tools via AWS server farms.."
+              header2= "What does AWS in Africa mean?"
+              paragraph = "AWS delivers on core requirements that your business needs, including: "
+              list= "Low Microsoft bandwidth costs, Better quality of experience for users, Fast deployment of new digital business capabilities, Lower the risk of business innovation, Building scale and reach"
               />  
             </div>
 
@@ -104,8 +117,13 @@ const Home = () => {
             <KeepMountedModal
             isOpen={modal2Open}
             onClose={handleModal2Close}
-            title="Communications"
-            content="Content for Modal 2 goes here."/>
+            title="Introducing 3CX Unified Communications"
+            header1="What is 3CX"
+            content= "The 3CX Phone System is the software-based private branch exchange (PBX) phone system developed and marketed by the company, 3CX. The 3CX Phone System is based on the SIP (Session Initiation Protocol) standard and enables extensions to make calls via Voice over Internet Protocol (VoIP) services on premises, in the cloud, or via a cloud service owned and operated by the 3CX company."
+            header2= "Why 3CX?"
+            paragraph = "3CX delivers on core requirements that your business needs, including: "
+            list = "Substantial Savings, Remote Working Ready, Contact Centre, Freedom of Choice, Boost Productivity and Tried and Tested"
+            />
             </div>
 
             <div className='service'>
@@ -114,8 +132,13 @@ const Home = () => {
           <KeepMountedModal
             isOpen={modal3Open}
             onClose={handleModal3Close}
-            title="Security Services"
-            content="Content for Modal 3 goes here."/>
+            title="Introducing Security Services"
+            header1="We got you covered"
+            content= "STC offers a complete range of safety and security products and systems. We pride ourselves in raising security industry standard and creating bespoke customer services and solutions. From the hiring process to client relationship, we take pride in exceeding clients’ expectations and surpassing competitor standards. We are a company that focuses on providing electronic security systems. We are committed to be the best in the market that will be driven by our policies and procedures"
+            header2= "Our Portfolio"
+            paragraph = "CCTV, Video Analytics and Access Controls"
+            
+            />
             </div>
           </div>
 

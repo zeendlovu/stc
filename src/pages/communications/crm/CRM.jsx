@@ -1,7 +1,18 @@
 import './crm.scss'
 import crm from '../../../static/images/crm.png'
+import Box from '@mui/material/Box';
+import Tab from '@mui/material/Tab';
+import TabContext from '@mui/lab/TabContext';
+import TabList from '@mui/lab/TabList';
+import TabPanel from '@mui/lab/TabPanel';
+import { useState } from 'react'
 
 function Crm(){
+    const [value, setValue] = useState('1');
+
+  const handleChange = (event, newValue) => {
+    setValue(newValue);
+  };
     return(
         <div className='crm'>
           <div className='crmContainer'>
@@ -12,23 +23,22 @@ function Crm(){
 
                 <div className='heading-title'>
                     <div className='title'>
-                        <h1>CRM</h1>
-                        <p>As the Samsung PABX product range is ridding off into the sunset, STC will continue
-                             to offer limited support to customers whilst restructuring our product offerings to fit 
-                             the unique needs of our customers.</p>
+                        <h1>CRM Services</h1>
+                        <p>Deliver the best omnichannel customer service. At STC we offer one platform with 
+                            everything you need to serve customers and grow your business.</p>
                     </div> 
                 </div>
 
                 <div className='content-element'>
                     <div className='header'>
                         <div className="services-header">
-                            <h3>Farewell</h3>
-                                <p>Samsung, the world leader in cutting edge mobile and telephony designs is also a trail blazer 
-                                    in PABX technology, announced that the Samsung PABX range will be discontinued. Standard 
-                                    Telephones and Cables as an authorized dealer, will continue to offer limited support for 
-                                    the Samsung PABX Systems whilst taking proactive steps with our customers as Samsung will 
-                                    eventually stop manufacturing replacement parts. Below are some of the Samsung PABX product 
-                                    ranges that STC continues to support.</p>
+                            <h3>Experience the power of efficiency with Freshdesk</h3>
+                                <p>Freshdesk is built to make customer engagement accessible to businesses of all sizes, so you can deliver an 
+                                    effortless customer experience at scale without the cost and complexity of legacy software. It allows you to 
+                                    engage customers across every touchpoint with a 360-degree view of the customer—across e-mail, phone, 
+                                    chat, social media, and more. You can also automate and streamline complex workflows and answer 
+                                    customer queries with no-code bots for faster resolutions and happier customers. Our aim is to make
+                                     it easy for your customers to reach you!</p>
                         </div>
                     </div>
                 </div>
@@ -38,6 +48,18 @@ function Crm(){
                 <div className='content-element'>
                     <div className='header'>
                         <div className="services-header">
+                        <TabContext value={value}>
+  <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
+    <TabList onChange={handleChange} aria-label="lab API tabs example">
+      <Tab label="Item One" value="1" />
+      <Tab label="Item Two" value="2" />
+      <Tab label="Item Three" value="3" />
+    </TabList>
+  </Box>
+  <TabPanel value="1">Item One</TabPanel>
+  <TabPanel value="2">Item Two</TabPanel>
+  <TabPanel value="3">Item Three</TabPanel>
+</TabContext>
                                 <p>Choosing a phone system for your business requires careful consideration. You want it to serve your business 
                                     well, now and into the future. Your telephone system must be able to scale with your business’ growth, 
                                     without breaking the bank in the process. Our unified communication system is an open-platform, VoIP 
