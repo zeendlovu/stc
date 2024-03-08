@@ -1,6 +1,7 @@
 import './config.scss'
 import {caseStudies, headers, useCases} from './data.js'
 import aws_use_case from '../../../../static/images/aws_use_case.png'
+import config from '../../../../static/images/config.png'
 
 function Config(){
 
@@ -47,8 +48,8 @@ const header = headers.map(header =>
                     {useCase}
                     
                     <div className='header'>
-                        <h1>How Does It Work?</h1>
-                        <img src='../../../public/images/config.png' alt='' width="500px" height="500" />   
+                        <h2>How Does It Work?</h2>
+                        <img src={config} alt=''height="100%" width="100%" />   
                     </div>
 
                     <div className='heading'>

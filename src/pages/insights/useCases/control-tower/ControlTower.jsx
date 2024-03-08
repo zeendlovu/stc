@@ -1,7 +1,7 @@
 import './controltower.scss'
 import {caseStudies, headers, useCases} from './data.js'
 import aws_use_case from '../../../../static/images/aws_use_case.png'
-
+import controlTower from '../../../../static/images/control tower.png'
 
 function ControlTower(){
 
@@ -48,8 +48,8 @@ const header = headers.map(header =>
                     {useCase}
                     
                     <div className='header'>
-                        <h1>How Does It Work?</h1>
-                        <img src='../../../public/images/config.png' alt='' width="500px" height="500" />   
+                        <h2>How Does It Work?</h2>
+                        <img src={controlTower} alt='' width="60%" height="60%" />   
                     </div>
 
                     <div className='heading'>

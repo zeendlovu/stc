@@ -1,6 +1,7 @@
 import './systemsManager.scss'
 import {caseStudies, headers, useCases} from './data.js'
 import aws_use_case from '../../../../static/images/aws_use_case.png'
+import sM from '../../../../static/images/sm-how-it-works.png'
 
 function SystemsManager(){
 
@@ -47,8 +48,8 @@ const header = headers.map(header =>
                     {useCase}
                     
                     <div className='header'>
-                        <h1>How Does It Work?</h1>
-                        <img src='../../../public/images/config.png' alt='' width="500px" height="500" />   
+                        <h2>How Does It Work?</h2>
+                        <img src={sM} alt='' width="100%" height="100%" />   
                     </div>
 
                     <div className='heading'>

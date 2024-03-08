@@ -1,10 +1,13 @@
 import './samsung.scss'
+import samsung from '../../../static/images/Samsung_logo.png'
 
 function Samsung(){
     return(
         <div className='samsung'>
           <div className='samsungContainer'>
-                <div className='background'></div>
+                <div className='background'>
+                <img src={samsung} alt='cloud' width='100%' />
+                </div>
                 
 
                 <div className='heading-title'>

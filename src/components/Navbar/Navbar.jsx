@@ -1,6 +1,7 @@
 import './navbar.scss'
 import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import logo from '../../static/images/logo.jpg'
 
 function Navbar() {
 	const navRef = useRef();
@@ -13,7 +14,9 @@ function Navbar() {
 
 	return (
 		<header>
-            <h3><a href='/'>LOGO</a></h3>
+            <h3><a href='/'>
+            <img src={logo} alt='cloud' width='25%' />
+            </a></h3>
 			<nav ref={navRef}>
             <div class="dropdown">
                 <button class="dropbtn">Cloud Services</button>
