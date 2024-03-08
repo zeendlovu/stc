@@ -48,11 +48,11 @@ function Navbar() {
             <div class="dropdown">
                 <button class="dropbtn">Insights</button>
                 <div class="dropdown-content">
-                    <h3 style={{ color: "#232443", padding: '0px 15px' }}>Use Cases</h3>
+                    <h4 style={{ color: "#232443", padding: '0px 15px' }}>Use Cases</h4>
                     <a href="/insights/control-tower">AWS Control Tower</a>
                     <a href="/insights/config">AWS Config</a>
                     <a href="/insights/systems-manager">AWS Systems Manager</a>
-                    <h3 style={{ color: "#232443", padding: '0px 15px' }}>Case Studies</h3>
+                    <h4 style={{ color: "#232443", padding: '0px 15px' }}>Case Studies</h4>
                     <a href="/insights/gain">Gain Cash and Carry</a>
                     <a href="/insights/simbisa">Simbisa</a>
                     <a href="/insights/profeeds">Profeeds</a>
