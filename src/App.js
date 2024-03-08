@@ -85,6 +85,11 @@ function App() {
                 </Routes>
 
                 <Routes>
+                  {/* Insights Section - Use Cases*/}
+                  <Route exact path="/use-case" element={<Insights />} />
+                </Routes>
+
+                <Routes>
                   {/* Insights Section - Case Studies */}
                   <Route exact path="/insights" element={<Insights />} />
                     <Route path="/insights/gain" element={<Gain />} />
