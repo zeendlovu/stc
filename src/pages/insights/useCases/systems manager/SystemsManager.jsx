@@ -14,11 +14,9 @@ const useCase = useCases.map(useCase =>
 
 const caseStudy = caseStudies.map(caseStudy => 
                 <div className='header'>
-                    <div className='header'>
                         <h1>{caseStudy.header}</h1>
                         <h3>{caseStudy.sub_header}</h3>
                         <p>{caseStudy.paragraph}</p>
-                    </div>
                 </div> )
 
 const header = headers.map(header =>

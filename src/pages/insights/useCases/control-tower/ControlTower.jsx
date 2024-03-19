@@ -13,13 +13,11 @@ const useCase = useCases.map(useCase =>
                 </div> )
 
 const caseStudy = caseStudies.map(caseStudy => 
-                <div className='header'>
                     <div className='header'>
                         <h1>{caseStudy.header}</h1>
                         <h3>{caseStudy.sub_header}</h3>
                         <p>{caseStudy.paragraph}</p>
-                    </div>
-                </div> )
+                    </div>)
 
 const header = headers.map(header =>
     <div className='header'>

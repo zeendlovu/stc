@@ -1,5 +1,5 @@
-import './management.scss'
-import about from '../../../static/images/about.jpg'
+import './customerStories.scss'
+
 
 import { useState } from 'react'
 import Box from '@mui/material/Box';
@@ -13,7 +13,7 @@ const style = {
     left: '50%',
     transform: 'translate(-50%, -50%)',
     width: '50%',
-    height: 'auto',
+    height: '50%',
     bgcolor: 'background.paper',
     boxShadow: 24,
     p: 4,
@@ -44,7 +44,7 @@ const style = {
     );
   };
 
-function Management(){
+function CustomerStories(){
     const [modal1Open, setModal1Open] = useState(false);
     const [modal2Open, setModal2Open] = useState(false);
     const [modal3Open, setModal3Open] = useState(false);
@@ -67,13 +67,12 @@ function Management(){
         <div className='management'>
           <div className='managementContainer'>
                 <div className='background'>
-                <img src={about} alt='cloud' width='100%' />
                 </div>
            
                 <div className='heading-title'>
                 <div className='title'>
-                    <h1>Our Team</h1>
-                    <p>Meet the leadership team who are building Zimbabwe's digital future.</p>
+                    <h1>Customer Stories</h1>
+                    <p>Learn how our services are helping customers</p>
                 </div> 
                 </div>
 
@@ -161,4 +160,4 @@ function Management(){
     )
 }
 
-export default Management;
+export default CustomerStories;

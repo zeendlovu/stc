@@ -20,7 +20,7 @@
             width: auto;
             padding: 10px;
             text-align: left;
-            left: 10vw;
+            left: 7.5vw;
             top: 30vh;
             .title{
                 color: #fff;   
@@ -29,7 +29,8 @@
 
         .content-element{
             height: fit-content;
-            margin: 50px;
+            margin: auto;
+            width: 87%;
 
             .header{
                height: 100%; 
@@ -65,7 +66,7 @@
             display: flex;
             background-color: #fff;
             height: auto; 
-            justify-content: space-evenly;
+            justify-content: center;
             width: 100%;
             flex-wrap: wrap;
             padding: 10px;
@@ -73,7 +74,7 @@
 
             .service{
                 height: auto;
-                width: 45%;
+                width: 42%;
                 padding: 40px;
                 margin: 10px;
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);

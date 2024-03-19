@@ -19,7 +19,7 @@
             width: auto;
             padding: 10px;
             text-align: left;
-            left: 10vw;
+            left: 9vw;
             top: 30vh;
             .title{
                 color: #fff;   
@@ -36,6 +36,7 @@
 
             .heading{
                 color: #000;
+                padding-left: 5vw;
 
                 h1{
                     padding: 10px;
@@ -44,8 +45,10 @@
 
             .header{
                 height: auto;
-                width: 100%;
-                padding: 5px;
+                width: 87%;
+                padding: auto;
+                margin: auto;
+                justify-content: center;
 
                 h1{
                     color: #232443;

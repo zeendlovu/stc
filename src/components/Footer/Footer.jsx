@@ -25,7 +25,7 @@ function Footer() {
                 <div className='right'>
                 <h2>Office in Harare</h2>
                     <ul>
-                        <li>714 Steven Drive Msasa, Harare</li>
+                        <li>14 Steven Drive Msasa, Harare</li>
                         <li>(+263) 8688-002-260</li>
                         <li>(+263) 242-486-781-5</li>
                         <li><a href="mailto:sales@stc.co.zw">sales@stc.co.zw</a></li>

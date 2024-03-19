@@ -19,7 +19,7 @@ import Access from './pages/security/accessControl/AccessControl.jsx'
 import Cctv from './pages/security/cctv/Cctv.jsx'
 import VideoAnalytics from './pages/security/videoAnalytics/VideoAnalytics.jsx'
 
-//Insights
+//Insights - usecases
 import Insights from './pages/insights/Insights.jsx'
 import Config from './pages/insights/useCases/config/Config.jsx'
 import ControlTower from './pages/insights/useCases/control-tower/ControlTower.jsx'
@@ -37,6 +37,9 @@ import Management from './pages/about/our-management/Management.jsx'
 
 //About
 import Contact from './pages/contact/Contact.jsx'
+
+
+import CustomerStories from './pages/insights/customer-stories/customerStories/CustomerStories.jsx'
 
 
 
@@ -86,11 +89,11 @@ function App() {
 
                 <Routes>
                   {/* Insights Section - Use Cases*/}
-                  <Route exact path="/use-case" element={<Insights />} />
+                  <Route exact path="/customer-stories" element={<CustomerStories />} />
                 </Routes>
 
                 <Routes>
-                  {/* Insights Section - Case Studies */}
+                  {/* Insights Section - Customer Stories */}
                   <Route exact path="/insights" element={<Insights />} />
                     <Route path="/insights/gain" element={<Gain />} />
                     <Route path="/insights/simbisa" element={<Simbisa />} />
