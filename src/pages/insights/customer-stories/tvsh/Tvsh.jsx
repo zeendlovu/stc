@@ -1,6 +1,6 @@
 import './tvsh.scss'
 import tvsh from '../../../../static/images/tvsh.jpg'
-import partner from '../../../../static/images/cloud.webp'
+import partner from '../../../../static/images/pexel.jpeg'
 
 function Tvsh(){
     return(
@@ -14,6 +14,7 @@ function Tvsh(){
                 <div className='heading-title'>
                     <div className='title'>
                         <h1>TV Sales and Home</h1>
+                        <p>WordPress site deployment</p>
                     </div> 
                 </div>
 

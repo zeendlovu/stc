@@ -1,5 +1,5 @@
 import './sap.scss'
-import sap from '../../../static/images/sap.jpg'
+import sap from '../../../static/images/aws-background.jpg'
 
 function Sap(){
     return(

@@ -1,6 +1,5 @@
 import './management.scss'
 import about from '../../../static/images/about.jpg'
-
 import { useState } from 'react'
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
@@ -67,7 +66,7 @@ function Management(){
         <div className='management'>
           <div className='managementContainer'>
                 <div className='background'>
-                <img src={about} alt='cloud' width='100%' />
+                <img src={about} alt='cloud' width='100%' height='100%' />
                 </div>
            
                 <div className='heading-title'>

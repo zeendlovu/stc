@@ -1,6 +1,6 @@
 import './profeeds.scss'
 import profeeds from '../../../../static/images/profeeds.png'
-import partner from '../../../../static/images/cloud.webp'
+import partner from '../../../../static/images/pexel.jpeg'
 
 function Profeeds(){
     return(
@@ -14,6 +14,7 @@ function Profeeds(){
                 <div className='heading-title'>
                     <div className='title'>
                         <h1>Profeeds</h1>
+                        <p>2-tier architecture deployment</p>
                     </div> 
                 </div>
 

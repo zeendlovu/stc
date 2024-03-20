@@ -1,5 +1,5 @@
 import './cctv.scss'
-import cctv from '../../../static/images/1682336849310.jpeg'
+import cctv from '../../../static/images/security.jpg'
 
 function Cctv(){
     return(

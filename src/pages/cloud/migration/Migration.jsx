@@ -1,5 +1,5 @@
 import './migration.scss'
-import Cloud from '../../../static/images/cloud.webp'
+import Cloud from '../../../static/images/aws-background.jpg'
 
 function Migration(){
     return(
@@ -8,7 +8,6 @@ function Migration(){
                 <div className='background'>
                 <img src={Cloud} alt='cloud' width='100%' />
                 </div>
-                
 
                 <div className='heading-title'>
                     <div className='title'>

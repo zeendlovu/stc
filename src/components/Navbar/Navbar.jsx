@@ -45,8 +45,6 @@ function Navbar() {
                 </div>
             </div>
 
-            
-
             <div class="dropdown">
                 <button class="dropbtn">Insights</button>
                 <div class="dropdown-content">

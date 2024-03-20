@@ -1,5 +1,5 @@
 import './microsoft.scss'
-import windows from '../../../static/images/windows.png'
+import windows from '../../../static/images/aws-background.jpg'
 
 function Microsoft(){
     return(

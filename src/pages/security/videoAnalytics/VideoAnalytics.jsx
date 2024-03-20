@@ -1,5 +1,5 @@
 import './videoAnalytics.scss'
-import videoAnalytics from '../../../static/images/videoAnalytics1.jpg'
+import videoAnalytics from '../../../static/images/security.jpg'
 
 function VideoAnalytics(){
     return(

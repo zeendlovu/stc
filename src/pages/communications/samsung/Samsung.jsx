@@ -1,5 +1,5 @@
 import './samsung.scss'
-import samsung from '../../../static/images/Samsung_logo.png'
+import samsung from '../../../static/images/comms1.jpg'
 
 function Samsung(){
     return(

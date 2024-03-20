@@ -1,30 +1,39 @@
 .home{
-    background-image: url("../../../public/images/Cloud-migration-Blog-Banner-.jpg");
+    background-position: center;
     display: flex;
     height: auto;
     
 
     .homeContainer{
         width: 100%;
-        position: relative;
+
+        .heading{
+            h1{
+                padding-top: 6vh;
+                padding-left: 9vw;
+                font-size: 40px;
+            }
+        }
 
         .background{
             display: flex;
             background-color: black;
-            height: 80vh;
-            opacity: 0.60;
+            height: 90vh;
+            width: 100%;
         }
 
         .heading-title{
             position: absolute;
+            background-color: rgba(0, 0, 0, 0.0);
             height: auto;
+            width: auto;
             padding: 10px;
-            left: 10vw;
+            text-align: left;
+            left: 7vw;
             top: 30vh;
-
             .title{
-                color: #fff; 
-                
+                color: #fff;   
+
                 p{
                     background-color: rgba(255, 255, 255, 0.2);
                     padding: 10px;
@@ -44,88 +53,75 @@
             }
         }
 
-        .homepage-header{
-            position: absolute;
-            height: auto;
-            width: auto;
-            
-            left: 10vw;
-
-            h1{
-                color: #fff;
-            }
-            p{
-                color: #fff;
-                width: 60vw;
-            }
-        }
-
-        .services-header{
-            background-color: #fff;
-            height: 10vh;
-            padding: 60px;
-            left: 50px;
-            padding-left: 150px;
-        }
-
         .services{
             display: flex;
             background-color: #fff;
-            height: 50vh; 
-            justify-content: center;
-            column-gap: 40px;
+            height: auto; 
             width: 100%;
+            justify-content: left;
+            flex-wrap: wrap;
+            padding-left: 7.5vw;
+
+
+            Button{
+                width: 31%;
+                color: #000;
+                position: relative;
+                padding: 20px;
+            }
 
             .service{
                 height: 50vh;
-                width: 25%;
+                width: 100%;
+                padding: auto;
+                margin: auto;
+                position: relative;
+                cursor: pointer;
+
+                .overlay{
+                    position: absolute;
+                    bottom: 15vh;
+                    left: 0;
+                    right: 0;
+                    background-color: #000;
+                    overflow: hidden;
+                    width: 100%;
+                    height: 0;
+                    transition: .5s ease;
+                    opacity: 0.9;
+                }
             }
+
+            .service:hover .overlay{
+                cursor: pointer;
+                height: 70%; 
+                color: #fff;           
+            }
+
         }
-
-        .content-element{
-            display: flex;
-            background-color: #fff;
-            height: 60vh; 
-
-            .left{
-                height: 100%;
-                flex: 1;
-                padding: 50px;
-                background-color: aqua;
-            }
-
-            .right{
-                height: 100%;
-                flex: 1;
-                padding: 50px;
-                text-align: justify;
-                background-color: red;
-            }
-        }
-
-        .service-header{
-            background-color: #fff;
-            padding: 30px;
-
-            h1{
-                text-align: center;
-            }
-        }
-
-        .content-elements{
-            display: flex;
-            background-color: white;
-            height: 40vh;
-            padding: 10px;
-            padding-bottom: 50px;
-
-            .element{
-                height: 100%;
-                flex: 1;
-                margin: 10px;
-            }
-        }
-
         
+        .service-header{
+            display: flex;
+            background-color: #fff;
+            height: auto; 
+            justify-content: center;
+            width: 100%;
+            flex-wrap: wrap;
+            text-align: justify;
+
+            .service1{
+                height: auto;
+                width: 42%;
+                padding: 20px;
+                margin: 10px;
+                position: relative;
+                cursor: pointer;
+
+                h1{
+                    font-size: 40px;
+                    text-align: left;
+                }
+            }
+        }
     }
 }

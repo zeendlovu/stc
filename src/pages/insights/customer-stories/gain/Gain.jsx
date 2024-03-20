@@ -1,6 +1,6 @@
 import './gain.scss'
 import gain_image from '../../../../static/images/gain.jpg'
-import partner from '../../../../static/images/cloud.webp'
+import partner from '../../../../static/images/pexel.jpeg'
 
 function Gain(){
     return(

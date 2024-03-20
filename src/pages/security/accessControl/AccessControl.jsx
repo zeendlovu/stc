@@ -1,5 +1,5 @@
 import './accessControl.scss'
-import accessControl from '../../../static/images/access control.jpg'
+import accessControl from '../../../static/images/security.jpg'
 
 function AccessControl(){
     return(

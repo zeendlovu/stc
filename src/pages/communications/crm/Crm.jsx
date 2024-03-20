@@ -1,5 +1,5 @@
 import './crm.scss'
-import crm from '../../../static/images/crm.png'
+import crm from '../../../static/images/comms1.jpg'
 
 
 function Crm(){

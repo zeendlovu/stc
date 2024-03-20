@@ -1,6 +1,6 @@
 import './simbisa.scss'
 import simbisa from '../../../../static/images/simbisa.jpg'
-import partner from '../../../../static/images/cloud.webp'
+import partner from '../../../../static/images/pexel.jpeg'
 
 function Simbisa(){
     return(
@@ -14,7 +14,7 @@ function Simbisa(){
                 <div className='heading-title'>
                     <div className='title'>
                         <h1>Simbisa Brands Limited</h1>
-                        
+                        <p>Predictiv ERP deployment</p>
                     </div> 
                 </div>
 
