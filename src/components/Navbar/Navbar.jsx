@@ -65,7 +65,7 @@ function Navbar() {
                 <div class="dropdown-content">
                     <a href="/about/our-story">Our Story</a>
                     <a href="/about/our-management">Our Team</a>
-                    <a href="/about/testimonials">Testimonials</a>
+                    <a href="/about/success-stories">Success Stories</a>
                 </div>
             </div>
             <div class="dropdown">

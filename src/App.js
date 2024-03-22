@@ -31,12 +31,10 @@ import Simbisa from './pages/insights/customer-stories/simbisa/Simbisa.jsx'
 import Profeeds from './pages/insights/customer-stories/profeeds/Profeeds.jsx'
 import Tvsh from './pages/insights/customer-stories/tvsh/Tvsh.jsx'
 
-
-
 //About
 import Story from './pages/about/our-story/Story.jsx'
 import Management from './pages/about/our-management/Management.jsx'
-import Testimonials from './pages/about/testimonials/Testimonials.jsx'
+import SuccessStories from './pages/about/success-stories/SuccessStories.jsx'
 
 //About
 import Contact from './pages/contact/Contact.jsx'
@@ -108,7 +106,7 @@ function App() {
                   {/* About Section */}
                   <Route path="/about/our-story" element={<Story />} />
                   <Route path="/about/our-management" element={<Management />} />
-                  <Route path="/about/testimonials" element={<Testimonials />} />
+                  <Route path="/about/success-stories" element={<SuccessStories />} />
                 </Routes>
 
                 <Routes>
