@@ -68,33 +68,33 @@ function Sap(){
 
                 <div className='services'>
                     <div className='service'>
-                        <h1>SAP on AWS Cloud Assessment</h1>
+                        <h2>SAP on AWS Cloud Assessment</h2>
                         <p>STC helps its customers by providing advisory services, which develop an efficient and 
                             effective plan for their cloud adoption journey. Services include financial / TCO 
                             (total cost of ownership) analysis, technical solution design, security, compliance, and licensing.</p>                    
                     </div>
 
                     <div className='service'>
-                            <h1>Proof-of-Concept</h1>
+                            <h2>Proof-of-Concept</h2>
                             <p>STC Proof of Concept helps customers to test SAP on AWS, including SAP ERP/ECC migration to HANA 
                                 or S/4HANA, SAP BW migration to HANA or BW/4HANA, SAP OS/DB migration, and new SAP solution 
                                 implementation.</p>
                     </div>
 
                     <div className='service'>
-                            <h1>SAP on AWS Migrations</h1>
+                            <h2>SAP on AWS Migrations</h2>
                             <p>STC helps Organizations to migrate their existing SAP environments or systems to AWS, including 
                                 all-in SAP migrations (PRD/QAS/DEV), hybrid SAP migrations (QAS/DEV/TST), single system migrations 
                                 (BW), or the combination of different systems.</p>
                     </div>
                     <div className='service'>
-                            <h1>SAP on AWS Managed Services</h1>
+                            <h2>SAP on AWS Managed Services</h2>
                             <p>We can provide Managed services for SAP environments on AWS, including migration services, AWS IaaS
                                  Administration, OS/DB Administration / Patching, Backup and Recovery, and SAP Basis / NetWeaver
                                   Administration.</p>
                     </div>
                     <div className='service'>
-                            <h1>STC Value Added Solutions for SAP</h1>
+                            <h2>STC Value Added Solutions for SAP</h2>
                             <p>STC helps customers by offering the solutions for SAP on AWS, like High Availability,
                                  Backup & Recovery, and Disaster Recovery on Cloud.</p>
                     </div>                
@@ -106,7 +106,7 @@ function Sap(){
 
                 <div className='services'>
                     <div className='service'>
-                        <h1>SAP Greenfield Deployment</h1>
+                        <h2>SAP Greenfield Deployment</h2>
                         <p>Plan, deploy the complete AWS landscape for customers who are starting their SAP ERP journey, 
                             or for customers who don’t want to migrate their legacy on-premise applications and like to start 
                             fresh in the cloud.</p>
@@ -115,7 +115,7 @@ function Sap(){
                     </div>
 
                     <div className='service'>
-                            <h1>SAP Migrate and Modernize</h1>
+                            <h2>SAP Migrate and Modernize</h2>
                             <p>Migrations and modernization services for existing SAP customers like technical assessments, 
                                 landscape planning and sizing, all migration scenarios, extending SAP capabilities using 
                                 integrations with other cloud services like IoT, AI/ML based business analytics, CRM tools, 
@@ -123,7 +123,7 @@ function Sap(){
                     </div>
 
                     <div className='service'>
-                            <h1>Disaster Recovery</h1>
+                            <h2>Disaster Recovery</h2>
                             
                                 <ul>
                                 <li>New DR site on AWS Cloud to protect the on-premises SAP environment.</li>
@@ -134,7 +134,7 @@ function Sap(){
                                 </ul>
                     </div>
                     <div className='service'>
-                            <h1>SAP BASIS Services</h1>
+                            <h2>SAP BASIS Services</h2>
                             <p>SAP BASIS experts taking care of the administrative tasks of the customer’s SAP landscape: </p>
                             <ul>
                                 <li>SAP housekeeping services</li>

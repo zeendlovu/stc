@@ -1,5 +1,27 @@
 import './unifiedComms.scss'
 import business from '../../../static/images/comms1.jpg'
+import dollar from '../../../static/images/icons/dollar-symbol.png'
+import zero_hassle from '../../../static/images/icons/checked.png'
+import mobile from '../../../static/images/icons/mobile-development.png'
+import hosting from '../../../static/images/icons/settings.png'
+import video_conf from '../../../static/images/icons/video-call.png'
+import livechat from '../../../static/images/icons/live-chat.png'
+import callcenter from '../../../static/images/icons/customer-service.png'
+import datacenter from '../../../static/images/icons/data-center.png'
+
+import get_started from '../../../static/images/3CX-Hosted-PBX-Adding-Users-768x393.webp'
+
+import * as React from 'react';
+import Accordion from '@mui/material/Accordion';
+import AccordionSummary from '@mui/material/AccordionSummary';
+import AccordionDetails from '@mui/material/AccordionDetails';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+
+
+const handleClick = () => {
+      // Handle click event if needed
+    };
+
 
 function UnifiedComms(){
     return(
@@ -52,53 +74,201 @@ function UnifiedComms(){
                 </div>
 
                 <div className='head'>
-                    <h1>Product Features</h1>
+                    <h1>Save thousands. Kick the headaches. Keep the features.</h1>
                 </div>
 
                 <div className='services'>
                     <div className='service'>
-                        <h1>Video Conferencing for unlimited users</h1>
-                        <p>Most video conferencing solutions require users to download an app or signup and create an account to be able to use their
-                             service. Our integrated video conferencing solution is easy to use and app-free. This means that the external participants 
-                             you invite will not need to download any apps or create any accounts to be able to join your meeting. Just click on the
-                              video conferencing meeting link from their browser and voila! They’re in.</p>
-                              <p>Our video conferencing feature has all the features to hold a one-on-one meeting, a sales presentation, 
-                                a team brainstorming session, a webinar. It allows you to set up hassle-free online meeting rooms with all
-                                 the necessary tools for any given circumstance – employees can even use their mobile devices to join meetings</p>                    
+                        <img src={dollar} alt='cloud' />
+                        <div className='container'>
+                            <h2>Save upto to 80%</h2>
+                        <p>We don’t charge a per user, per month fee. You pay just one low yearly price.</p>     
+                        </div>
+                                 
                     </div>
 
                     <div className='service'>
-                            <h1>Engagement Flexibility</h1>
-                            <p>With a business VoIP app for Android or iOS, you can literally take your office extension with you anywhere. 
-                                A business VoIP App will enable you to answer calls to your office phone extension via your smartphone device.
-                                 You can also transfer to colleagues without asking customers to call another number.</p>
-                                 <ul>
-                                    <li>No additional licensing costs for softphones</li>
-                                    <li>Make and receive calls from your smartphone – at no cost</li>
-                                    <li>Set your status to available, away and out of office from your smartphone</li>
-                                    <li>See the status of your colleagues from anywhere</li>
-                                    <li>One number concept</li>
-                                 </ul>
-                    </div>
-
-                    <div className='service'>
-                            <h1>Click to Call Feature</h1>
-                            <p>Click-to-call lets users make outbound calls to phone numbers found on web pages, emails and contact lists with just the 
-                                click of a button. The browser extension for Chrome and Edge enables you to make phone calls directly from your CRM or 
-                                browser with the 3CX Web Client. Users making countless calls every day will save a significant amount of time by
-                                 simply clicking on the number to automatically make the call, without having to dial or copy and paste. Click to
-                                  Call features include the ability to auto-detect telephone numbers from 7 to 15 digits in length, preventing 
-                                  the extension from detecting digits which are not phone numbers</p>
-                    </div>
-                    <div className='service'>
+                    <img src={zero_hassle} alt='cloud' />
+                        <div className='container'>
+                            <h2>Zero Hassle setup</h2>
+                            <p>Get 3CX Hosted PBX rolled out in no time, office wide. 
+                                With no contract to sign - walk away any time.</p>
+                        </div>
                             
-                    </div>              
+                                 
+                    </div>
+
+                    <div className='service'>
+                    <img src={mobile} alt='cloud' />
+                        <div className='container'>
+                            <h2>Smartphone and web apps</h2>
+                            <p>Get 3CX Hosted PBX rolled out in no time, office wide. 
+                            With no contract to sign - walk away any time.</p>
+                        </div>
+                    </div>
+                    <div className='service'>
+                    <img src={hosting} alt='cloud' />
+                        <div className='container'>
+                            <h2>Managed Hosting</h2>
+                            <p>Get 3CX Hosted PBX rolled out in no time, office wide. 
+                                With no contract to sign - walk away any time.</p>
+                        </div>
+                            
+                    </div>  
+
+                    <div className='service'>
+                    <img src={video_conf} alt='cloud' />
+                        <div className='container'>
+                            <h2>Video Conferencing</h2>
+                        <p>Meet smarter with 3CX Meet. No apps, downloads or details. 
+                            Easily create, host, or join a meeting. It's free! Why pay extra for Zoom?</p>  
+                        </div>
+                                          
+                    </div>
+
+                    <div className='service'>
+                    <img src={livechat} alt='cloud' />
+                        <div className='container'>
+                            <h2>Live Chat and Messaging</h2>
+                            <p>Not just calls. Use the integrated live chat, SMS Texting and WhatsApp solution too. No extra cost or admin.</p>
+                        </div>     
+                    </div>
+
+                    <div className='service'>
+                    <img src={callcenter} alt='cloud' />
+                        <div className='container'>
+                            <h2>Call Center Solution</h2>
+                            <p>Get 3CX Hosted PBX rolled out in no time, office wide. 
+                                With no contract to sign - walk away any time.</p>
+                        </div>
+                            
+                    </div>
+                    <div className='service'>
+                        <img src={datacenter} alt='cloud' />
+                        <div className='container'>
+                            <h2>World Class data centers</h2>
+                            <p>We use and negotiate best prices with first class brands Amazon, 
+                            Google and Digital Ocean for guaranteed reliability and innovation.</p>
+                        </div>       
+                    </div>            
                 </div> 
-              <h2>
-                <a href='../../../../public/documents/3cx.pdf' download>
-                   Click to download 3CX Brochure for more information 
-                </a>
-                </h2> 
+
+                <div className='get-started'>
+                    <div className='left'>
+                        <h1>Get started with 3CX Hosted</h1>  
+                        <h2>#1 Sign up for 3CX Hosted</h2>  
+                        <p>Deploy your Hosted 3CX in no time. All you need to do is sign up and choose the 3CX that’s right for
+                            your business. SMB for less than 10 users, PRO or Enterprise for larger companies.</p>
+
+                        <h2>#2 Bring your SIP Trunk</h2>  
+                        <p>3CX works with a global network of leading SIP Trunk / VoIP and IP Phone providers committed to 
+                            supporting our combined offering. If you already have a SIP Trunk from these providers you can 
+                            simply connect it to your 3CX.</p>  
+
+                        <h2>#3 Let a Partner help you</h2>  
+                        <p>3CX is a channel sales company with a global network of Partners. Get in touch with STC for 
+                            set up support at a reasonable price. Talk to a STC.</p>    
+                    </div>
+                        <div className='right'>
+                        <img src={get_started} alt='cloud' />
+                        </div> 
+                </div>
+
+
+
+                <div className='get-started'>
+                    <div className='right'>
+                        <img src={get_started} alt='cloud' />
+                    </div>
+
+                    <div className='left'>
+                        <h1>Your questions answered.</h1>  
+                        <Accordion defaultExpanded> 
+                            <AccordionSummary
+                            expandIcon={<ExpandMoreIcon />}
+                            aria-controls="panel1-content"
+                            id="panel1-header"
+                            >
+                            <h3>How can 3CX offer its Hosted solution at such low cost?</h3>
+                            </AccordionSummary>
+                            <AccordionDetails>
+                            It’s simple. We negotiate prices with leading hyperscalers including Amazon, Google and DO on 
+                            behalf of our 350,000 customers. Secondly, we automate instance management.
+                            </AccordionDetails>
+                        </Accordion>
+                        <Accordion>
+                            <AccordionSummary
+                            expandIcon={<ExpandMoreIcon />}
+                            aria-controls="panel2-content"
+                            id="panel2-header"
+                            >                           
+                            <h3>How can I set 3CX Hosted up?</h3>
+                            </AccordionSummary>
+                            <AccordionDetails>
+                            Super easy… Install. Import Users. Connect your SIP Trunk. Your IT 
+                            can handle it all easily in 1 or 2 days
+                            </AccordionDetails>
+                        </Accordion>
+                        <Accordion>
+                            <AccordionSummary
+                            expandIcon={<ExpandMoreIcon />}
+                            aria-controls="panel3-content"
+                            id="panel3-header"
+                            >                           
+                            <h3>Can I test if 3CX Hosted is the right solution for my business?</h3>
+                            </AccordionSummary>
+                            <AccordionDetails>
+                            Yes! Select 3CX Dedicated Hosting for Professional and Enterprise feature sets and enjoy a <a href="https://www.3cx.com/ordering/pricing/" style={{textDecoration: "none"}}>2 month trial.</a>
+                            </AccordionDetails>
+                        </Accordion> 
+                        <Accordion>
+                            <AccordionSummary
+                            expandIcon={<ExpandMoreIcon />}
+                            aria-controls="panel4-content"
+                            id="panel4-header"
+                            >                           
+                            <h3>Can I use my own private cloud if I want to?</h3>
+                            </AccordionSummary>
+                            <AccordionDetails>
+                            Sure no problem. Choose <a href='https://www.3cx.com/phone-system/' style={{textDecoration: "none"}}>3CX Enterprise</a> with the option to self host in your own private cloud.
+                            </AccordionDetails>
+                        </Accordion>
+                        <Accordion>
+                            <AccordionSummary
+                            expandIcon={<ExpandMoreIcon />}
+                            aria-controls="panel5-content"
+                            id="panel5-header"
+                            >                                                     
+                            <h3>What if I only have 5 users? Can I still use 3CX Hosted?</h3>
+                            </AccordionSummary>
+                            <AccordionDetails>
+                            Yes of course! There’s a special <a href='https://www.3cx.com/small-business-phone-system/' style={{textDecoration: "none"}}>small business solution</a> ideal for up to 10 users with a 5-digit 
+                            extension for each user. For 20 users + 3CX gives you a variety of <a href="https://www.3cx.com/ordering/pricing/" style={{textDecoration: "none"}}>hosted solutions</a> to choose from.
+                             Factors to consider include shared or dedicated hosting along with the features you need for your business.
+                            </AccordionDetails>
+                        </Accordion>
+
+                        <Accordion>
+                            <AccordionSummary
+                            expandIcon={<ExpandMoreIcon />}
+                            aria-controls="panel6-content"
+                            id="panel6-header"
+                            >                           
+                            <h3>Can I use my own private cloud if I want to?</h3>
+                            </AccordionSummary>
+                            <AccordionDetails>
+                            Yes easily! Did you know that <a href='https://www.3cx.com/docs/switch-hosted-pbx/' style={{textDecoration: "none"}}>migrating to 3CX Hosted PBX</a> is as easy as taking a backup and re-deploying your 
+                            instance? In most cases it’s a matter of an hour. In cases where an installation is large the restoration of 
+                            your backup is post re-deployment.
+                            
+                            </AccordionDetails>
+                        </Accordion>
+                    </div>   
+                </div>
+
+            <div className='download'>
+            <a href="/documents/3cx.pdf" download="example.txt" onClick={handleClick}>Download 3cx Brochure</a>
+                </div>
             </div>                 
         </div>
     )

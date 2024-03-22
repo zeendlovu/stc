@@ -1,5 +1,9 @@
 import './story.scss'
 import about from '../../../static/images/about.jpg'
+import aws_partner from '../../../static/images/aws-partner.jpg'
+import transparent from '../../../static/images/icons/transparency.png'
+import teamwork from '../../../static/images/icons/deal.png'
+import innovation from '../../../static/images/icons/innovation.png'
 
 function Story(){
     return(
@@ -11,14 +15,15 @@ function Story(){
                 <div className='heading-title'>
                     <div className='title'>
                         <h1>Our Story</h1>
-                        <p>Standard Telephones & Cables (Successors) Private Limited is a Zimbabwean owned company which specializes in Telecommunications, cloud services and Electronic Security Solutions. We believe in delivering cost effective Telecommunication and cloud solutions and high-end Electronic Security solutions to our customers.</p>
+                        <p>Standard Telephones & Cables (Successors) Private Limited is a Zimbabwean owned company which 
+                            specializes in Telecommunications, cloud services and Electronic Security Solutions. We believe 
+                            in delivering cost effective Telecommunication and cloud solutions and high-end Electronic 
+                            Security solutions to our customers.</p>
                     </div> 
                 </div>
 
                 <div className='services'>
-                    <div className='header'>
-                        <h1>About Us</h1>
-                        <h2>Company Overview</h2>
+                <div className='about-us'>
                         <p>STC is an Amazon Web Services (AWS) Advanced Partner Tier Partner headquartered in Zimbabwe. 
                             In partnership with AWS, STC has evolved to meet its clients’ dynamic needs, emphasizing its 
                             strong commitment to the technology industry. With over 55 years of experience in telecommunications 
@@ -30,6 +35,55 @@ function Story(){
                             in telecommunications, including cloud-based enterprise telecommunication solutions, 
                             video conferencing, and video analytics (AI), access control and monitoring systems.</p>
                     </div>
+
+                    <div className='heading'>
+                        <h1>Core Values</h1>
+                    </div>
+                    <div className='values'>
+                        <div className='block'>
+                          <h2>Innovation</h2>
+                          <p>Encouraging employees to think outside the box, explore unconventional solutions, 
+                            and generate fresh ideas.</p>  
+                        </div>
+                        <div className='block'>
+                        <h2>Teamwork</h2>
+                        <p>Facilitating open communication channels and collaboration among teams to share ideas, 
+                            insights, and expertise, fostering a culture of innovation.</p>  
+                        </div>
+                        <div className='block'>
+                        <h2>Customer-Centricity</h2>
+                        <p>Prioritizing understanding customer needs and preferences, and leveraging innovation to deliver 
+                            solutions that provide value and address those needs effectively.</p>  
+                        </div>
+                        <div className='block'>
+                        <h2>Adaptability and Flexibility</h2>
+                        <p>Being responsive to changing market dynamics, technological advancements, and evolving customer 
+                            needs, and being willing to adapt accordingly.</p>  
+                        </div>
+                    </div>
+
+                    <div className='heading'>
+                        <h1>Our Culture</h1>
+                        <p>Our customers and partners like the product driven approach of our delivery teams and how easy 
+                            it is work with us. These values have led to a corporate culture that is:</p>
+                    </div>
+                    <div className='our-culture'>
+                        <div className='block'>
+                          <img src={innovation} alt='cloud' width='50%' />
+                          <h2>Innovation</h2> 
+                        </div>
+                        <div className='block'>
+                        <img src={teamwork} alt='cloud' width='50%' /> 
+                        <h2>Collaborative</h2>
+                        </div>
+                        <div className='block'>
+                        <img src={transparent} alt='cloud' width='50%' />  
+                        <h2>Open & Transparent</h2>
+                        </div>
+                        
+                    </div>
+
+                    
                     <div className='statement'>
                         <h2>Our Vision</h2>
                         <p>To enable African enterprises to transform value creation 
@@ -39,14 +93,15 @@ function Story(){
                         <p>To enable businesses and organizations to focus on maximizing their 
                                 performance, by deploying their systems and applications into the cloud 
                                 and removing time consuming management of their hardware from the critical
-                                 path of their operations.</p>
-                        <h2>Our Values</h2>
-                        <p>Innovation. Teamwork. Professionalism. Commitment</p>
+                                path of their operations.</p>
                     </div>
                     
+                    <div className='heading'>
+                        <h1>Our Partner</h1>
+                    </div>
                     <div className='partner'>
                         <div className='img'>
-                            <h1>Our Partner</h1>
+                        <img src={aws_partner} alt='cloud' width='100%' />
                         </div>
                         <div className='para1'>
                             <p>
@@ -84,7 +139,7 @@ function Story(){
                         </div>
                     </div>
 
-                    <div className='partner'>
+                    <div className='promise'>
                         <div className='img'>
                             <h1>Our Promise</h1>
                         </div>
@@ -100,7 +155,7 @@ function Story(){
                     </div>
                     
                 </div>
-            </div>                 
+            </div>                
         </div>
     )
 }

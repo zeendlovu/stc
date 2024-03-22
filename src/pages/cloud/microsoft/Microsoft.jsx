@@ -62,7 +62,7 @@ function Microsoft(){
 
                 <div className='services'>
                     <div className='service'>
-                        <h1>Microsoft and Migration Expertise</h1>
+                        <h2>Microsoft and Migration Expertise</h2>
                         <p>For nearly a decade, STC has been 100% AWS focused, developing expertise in migrating hundreds 
                             and hundreds of mission-critical custom legacy applications and data workloads including data 
                             warehouses in over hundreds of project engagements. We have a deep understanding of AWS technologies 
@@ -70,7 +70,7 @@ function Microsoft(){
                     </div>
 
                     <div className='service'>
-                            <h1>Engagement Flexibility</h1>
+                            <h2>Engagement Flexibility</h2>
                             <p>STC offers a variety of engagement models allowing customers like you to migrate at your pace, engage 
                                 at your choice with onshore/offshore Microsoft certified professionals organized in STC lead teams, 
                                 bundled teams or staff augmentation to complement your organization during its migration journey.
@@ -79,7 +79,7 @@ function Microsoft(){
                     </div>
 
                     <div className='service'>
-                            <h1>Team and Business Impact</h1>
+                            <h2>Team and Business Impact</h2>
                             <p>STC has supported a variety of customers, enabling customer organizations like yours to reach their 
                                 business goals as well as enabling their teams with virtualized infrastructure operation methods to
                                  become highly Cloud proficient. Through our OneTeam process, we work in close collaboration and 
@@ -88,7 +88,7 @@ function Microsoft(){
                     </div>
 
                     <div className='service'>
-                            <h1>Agile Enablement</h1>
+                            <h2>Agile Enablement</h2>
                             <p>We use the Agile methodology to quickly and iteratively start to add business value and address the
                                  shifting nature of business requirements, while ensuring continuous improvement in both the product 
                                  and the process used. We engage you and your teams in the Agile processes as part of the OneTeam 
@@ -102,17 +102,17 @@ function Microsoft(){
 
                 <div className='services'>
                     <div className='service'>
-                        <h1>Assessement</h1>
+                        <h2>Assessement</h2>
                         <p>Get clarity on where are you are starting and create a TCO model to build business 
                             justification for your migration project.</p>                    
                     </div>
 
                     <div className='service'>
-                            <h1>Migrate and Modernize</h1>
+                            <h2>Migrate and Modernize</h2>
                             <p>Migrate waves of applications, operate and optimize your cloud environment and applications</p>
                     </div>
                     <div className='service'>
-                            <h1>Cloud migration</h1>
+                            <h2>Cloud migration</h2>
                             <ul>
                                 <li>Application specific | Virtual Desktops</li>
                                 <li>Data center wide</li>
@@ -120,7 +120,7 @@ function Microsoft(){
                             </ul>
                     </div>  
                     <div className='service'>
-                            <h1>Disaster Recovery</h1>
+                            <h2>Disaster Recovery</h2>
                             <ul>
                                 <li>New DR site(s)</li>
                                 <li>Replace existing DR site(s)</li>

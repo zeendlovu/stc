@@ -56,7 +56,7 @@ function Samsung(){
 
                 <div className='services'>
                     <div className='service'>
-                        <h1>Samsung Digital Communication System (DCS) Telephones</h1>
+                        <h2>Samsung Digital Communication System (DCS) Telephones</h2>
                         <p>The Samsung Digital Communication System (DCS) Telephones offer a user friendly design with easy access to 
                             system features. Samsung Handsets can be connected to telephone systems ( IP or PBX ) to allow a full 
                             connectivity and collaboration among offices and businesses.</p>
@@ -68,7 +68,7 @@ function Samsung(){
                     </div>
 
                     <div className='service'>
-                            <h1>Samsung OfficeServ 7030 IP PABX Phone System</h1>
+                            <h2>Samsung OfficeServ 7030 IP PABX Phone System</h2>
                             <p>OfficeServ 7030 is the best communication product for offices with 4 to 20 lines and provides 
                                 advanced functions including voice and applications. Users can enjoy various phone functions
                                  and applications using the various devices such as digital phones, IP phones, WLAN phones,
@@ -84,7 +84,7 @@ function Samsung(){
                     </div>
 
                     <div className='service'>
-                            <h1>Samsung OfficeServ 7070 IP PABX Phone System</h1>
+                            <h2>Samsung OfficeServ 7070 IP PABX Phone System</h2>
                             <p>Samsung OfficeServ 7070 is an IP-PBX optimized for small and medium sized businesses having less than 50 employees.
                             It supports not only VoIP communications, but works perfectly with existing communication infrastructures</p>
                             <ul>
@@ -99,7 +99,7 @@ function Samsung(){
                                  </ul>
                     </div>
                     <div className='service'>
-                        <h1>Samsung OfficeServ 7400 IP PABX Phone System</h1>
+                        <h2>Samsung OfficeServ 7400 IP PABX Phone System</h2>
                             <p>The Samsung OfficeServ 7400 is Samsung’s premier telephone system. The OfficeServ 7400 features a robust feature
                                  package including converged voice and data, VoIP, unified messaging and wireless keysets.</p>
                             <ul>

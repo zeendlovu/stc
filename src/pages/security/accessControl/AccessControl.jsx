@@ -12,7 +12,7 @@ function AccessControl(){
 
                 <div className='heading-title'>
                     <div className='title'>
-                        <h1>Access Control Systems</h1>
+                        <h2>Access Control Systems</h2>
                         <p>Designed to work together seamlessly, our access control products provide you with the technology you need 
                             to deliver sophisticated security solutions—from the simplest to the most challenging.</p>
                     </div> 
@@ -41,7 +41,7 @@ function AccessControl(){
 
                 <div className='services'>
                     <div className='service'>
-                        <h1>Biometric Access Control</h1>
+                        <h2>Biometric Access Control</h2>
                         <p>Biometric access control looks at things that are unique to each individual to either grant or deny access to a building or 
                             area of a building. This includes fingerprints, retina scans, facial recognition, and/or voice. Now, when you go to open 
                             the door, you scan your finger. The system analyzes the print and sees if it matches one in the database. If it does, then 
@@ -50,7 +50,7 @@ function AccessControl(){
                     </div>
 
                     <div className='service'>
-                            <h1>Radio-Frequency Identification (RFID)</h1>
+                            <h2>Radio-Frequency Identification (RFID)</h2>
                             <p>RFID technology makes use of electromagnetic waves to capture and read transmitted data; the information is electronically stored 
                                 on a tag that is attached to an object or to the carrier, and that tag’s chip is activated to share its information when it’s near
                                  a reader. These tags can be detected from several feet away by the receiver, making them useful in access control for buildings
@@ -60,7 +60,7 @@ function AccessControl(){
                     </div>
 
                     <div className='service'>
-                            <h1>Pin Code Access Control Systems</h1>
+                            <h2>Pin Code Access Control Systems</h2>
                             <p>Keypad access control systems are simple security systems that require just a PIN code for door 
                                 or gate entry with no access card or credential required. Keypad systems are generally used for access 
                                 applications with low security and a limited amount of users with authorized access.</p>
@@ -68,7 +68,7 @@ function AccessControl(){
                     </div>         
 
                     <div className='service'>
-                            <h1>Man Trap Doors</h1>
+                            <h2>Man Trap Doors</h2>
                             <p>A mantrap is an access control system that consists of a small space and two interlocking doors. One set of the doors must close 
                                 before the other one can be opened so that an individual is briefly ‘trapped’ in the vestibule before clearing the second door. 
                                 These vestibules can be manually operated or have automatic systems. In a manual system, a guard would need to lock and unlock 
@@ -86,7 +86,7 @@ function AccessControl(){
                 
                     <div className='services'>
                     <div className='service'>
-                        <h1>Fire Alarm Systems</h1>
+                        <h2>Fire Alarm Systems</h2>
                         <p>Fire alarm systems are mostly a legal or insurance requirement. Smoke detectors or carbon monoxide detectors trigger 
                             the alarm to notify everything in the space and turn on the sprinklers. They are designed to discover fires early in 
                             their development when time will still be available for the safe evacuation of occupants. Early detection also plays 
@@ -97,7 +97,7 @@ function AccessControl(){
                     </div>
 
                     <div className='service'>
-                            <h1>Radio-Frequency Identification (RFID)</h1>
+                            <h2>Radio-Frequency Identification (RFID)</h2>
                             <p>To detect if an unwanted burglar comes visit your office after hours or on weekends, you probably want a burglary 
                                 system set up. Those systems typically operate on a simple principle: They get activated with a code or card and
                                  from then on every time someone comes through the door and does not de-activate the alarm in time sets off a 

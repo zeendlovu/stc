@@ -69,7 +69,7 @@
             display: flex;
             background-color: #fff;
             height: auto; 
-            justify-content: space-evenly;
+            justify-content: center;
             width: 100%;
             flex-wrap: wrap;
             padding: 10px;
@@ -77,18 +77,16 @@
 
             .service{
                 height: auto;
-                width: 40%;
+                width: 43.5%;
                 padding: 20px;
                 margin: 10px;
                 position: relative;
-                cursor: pointer;
+
+                P{
+                    font-size: 20px; 
+                }
             }
 
-            .service:hover .overlay{
-                cursor: pointer;
-                height: 100%;
-                
-            }
 
         }        
     }

@@ -39,9 +39,9 @@ function Footer() {
                 </div>
                 
                 <div className='icons'>
-                    <h3><FontAwesomeIcon icon={faTwitter} /></h3>
-                    <h3><FontAwesomeIcon icon={faFacebook} /></h3>
-                    <h3><FontAwesomeIcon icon={faLinkedin} /></h3>
+                    <h3><a href='https://x.com/zw_stc?s=20'><FontAwesomeIcon icon={faTwitter} /></a></h3>
+                    <h3><a href='https://www.facebook.com/profile.php?id=100066625576145'><FontAwesomeIcon icon={faFacebook} /></a></h3>
+                    <h3><a href='https://www.linkedin.com/company/standard-telephones-and-cables-private-limited-zimbabwe/mycompany/'><FontAwesomeIcon icon={faLinkedin} /></a></h3>
                 </div>
             </div>           
         </div>

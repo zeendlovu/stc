@@ -79,17 +79,21 @@
 
             .service1{
                 height: auto;
-                width: 28%;
+                width: 29%;
                 padding: 20px;
-                margin: 20px;
+                margin: 10px;
                 position: relative;
                 cursor: pointer;
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+                h2{
+                    text-align: left;
+                }
             }
 
             .service{
                 height: auto;
-                width: 43%;
+                width: 44%;
                 padding: 20px;
                 margin: 10px;
                 position: relative;

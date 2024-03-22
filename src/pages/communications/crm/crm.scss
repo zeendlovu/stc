@@ -21,7 +21,7 @@
             position: absolute;
             background-color: rgba(255, 255, 255, 0.2);
             height: auto;
-            width: 50vw;
+            width: 30vw;
             padding: 10px;
             text-align: left;
             left: 7.5vw;
@@ -63,18 +63,12 @@
                 padding: 10px;
             }
 
-            h2{
-                text-align: center;
-                padding: 30px;
-                color: #232443;
-            }
             p{
                 text-align: center;
             }
         }
         .services{
             display: flex;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
             height: auto; 
             justify-content: center;
             width: 100%;
@@ -82,20 +76,92 @@
             padding: 20px;
             text-align: justify;
 
-
             .service{
                 height: auto;
-                width: 20.5%;
+                width: 28%;
                 padding: 30px;
                 margin: 10px;
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
                 position: relative;
-                cursor: pointer;
-
-                
+                cursor: pointer;  
             }
+        } 
+        
+        .tabContainer{
+            display: flex;
+            height: auto;
+            padding: 60px 60px;
+            background-color: #ededf3;
+            margin: auto;
+            width: 85%;
+            
+
+            .content{
+                height: 100%;
+                margin: 0;
+                width: 100%;
+
+                .tablink {
+                    height: auto;
+                    color: #232443;
+                    float: left;
+                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+                    border: none;
+                    cursor: pointer;
+                    padding: 14px 16px;
+                    font-size: 17px;
+                    width: 25%;
+                  }
+                  .tablink:hover{
+                    background-color: #232443;
+                    color: #ededf3;
+                    transition: 0.5s;
+                }
 
 
-        }        
+                  .tabcontent {
+                    display: none;
+                    padding: 50px 20px;
+                    height: auto;
+
+                    .left{
+                        flex: 1;
+                        width: auto;
+                        height: auto;
+                        
+
+                        img{
+                            display: flex;
+                            margin-left: auto;
+                            margin-right: auto;
+                            width:80%;
+                            height: auto;
+                        }
+                        
+                    }
+
+                    .right{
+                        flex: 1;
+                        width: auto;
+                        height: auto;
+                        
+
+                        h1{
+                            font-size: 45px;
+                            color: #232443;
+                        }
+                        p{
+                            font-size: 25px;
+                            color: #232443;
+                        }
+
+                        a{
+                            font-size: 18px;
+                            padding: 100px 0px;
+                        }
+                    }
+                  }
+            }
+        }
     }
 }

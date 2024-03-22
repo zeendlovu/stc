@@ -20,7 +20,6 @@
             background-color: #232443;
             height: auto;
             padding: 50px;
-            cursor: pointer;
 
             ul{
                 list-style: none;
@@ -67,6 +66,10 @@
             right: 5vw;
             justify-content: space-evenly;
             cursor: pointer;
+
+            a{
+                color: #bebec3;
+            }
         }
     }
     

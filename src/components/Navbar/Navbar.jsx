@@ -30,8 +30,8 @@ function Navbar() {
             <div class="dropdown">
                 <button class="dropbtn">Communications</button>
                 <div class="dropdown-content">
+                <a href="/communications/unified-comms">Unified Communications System</a>
                     <a href="/communications/samsung">Samsung PABX Systems</a>
-                    <a href="/communications/unified-comms">Unified Communications System</a>
                     <a href="/communications/crm">CRM Systems</a>
                 </div>
             </div>
@@ -64,7 +64,8 @@ function Navbar() {
                 <button class="dropbtn">About Us</button>
                 <div class="dropdown-content">
                     <a href="/about/our-story">Our Story</a>
-                    <a href="/about/our-management">Our Management</a>
+                    <a href="/about/our-management">Our Team</a>
+                    <a href="/about/testimonials">Testimonials</a>
                 </div>
             </div>
             <div class="dropdown">

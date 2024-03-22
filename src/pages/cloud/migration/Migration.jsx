@@ -77,21 +77,21 @@ function Migration(){
 
                 <div className='services'>
                     <div className='service'>
-                        <h1>Cloud Migration Discovery</h1>
+                        <h2>Cloud Migration Discovery</h2>
                         <p>We combine our best practices approach with automated tools such as AWS Migration Readiness assessment to assess your infrastructure, applications and data to determine the best solution for your business needs.</p>                    
                     </div>
 
                     <div className='service'>
-                            <h1>Cloud Migration Planning</h1>
+                            <h2>Cloud Migration Planning</h2>
                             <p>With the help of our modern analysis tools, prioritize applications and identify required remediations to help you reduce risk, time, and cost, as well as enhance agility, performance, and availability.</p>
                     </div>
 
                     <div className='service'>
-                            <h1>Cloud Migration Strategy</h1>
+                            <h2>Cloud Migration Strategy</h2>
                             <p>Leveraging data from the discovery phase, we assess your business needs, identify opportunities and recommend the optimal migration strategy and associated cloud services. Where possible, we investigate modernization “low-hanging fruit” opportunities to accelerate the massive value available from the cloud.</p>
                     </div>
                     <div className='service'>
-                            <h1>Cloud Migration Execution</h1>
+                            <h2>Cloud Migration Execution</h2>
                             <p>We leverage our extensive migration experience, automated cloud management and migration tools to support a smooth migration.</p>
                     </div>
                 

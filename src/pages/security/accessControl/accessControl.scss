@@ -7,10 +7,6 @@
     .accessContainer{
         width: 100%;
 
-        h2{
-            padding: 30px;
-        }
-
         .background{
             display: flex;
             background-color: black;
@@ -94,8 +90,8 @@
                 position: relative;
                 cursor: pointer;
 
-                p{
-                    padding: 10px;
+                h2{
+                    text-align: left;
                 }
 
                 ul{

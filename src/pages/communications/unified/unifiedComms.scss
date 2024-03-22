@@ -7,9 +7,7 @@
     .unifiedContainer{
         width: 100%;
 
-        h2{
-            padding: 30px;
-        }
+        
 
         .background{
             display: flex;
@@ -68,40 +66,87 @@
                 text-align: center;
             }
         }
+
         .services{
             display: flex;
             background-color: #fff;
             height: auto; 
             justify-content: center;
-            width: 100%;
+            width: 87%;
             flex-wrap: wrap;
-            padding: 10px;
-            text-align: justify;
+            margin: auto;
 
             .service{
                 height: auto;
-                width: 42.5%;
+                width: 25%;
                 padding: 20px;
-                margin: 10px;
+                text-align: left;
+                display: flex;
 
-                position: relative;
-                cursor: pointer;
-
-                ul{
-                    li{
-                        list-style: none;
-                        padding: 10px;
-                    }
+                img{
+                    width: auto;
+                    height: 6vh;
+                    margin: 10px;
                 }
 
             }
 
-            .service:hover .overlay{
-                cursor: pointer;
-                height: 100%;
+        } 
+        
+        .get-started{
+            display: flex;
+            height: auto; 
+            justify-content: center;
+            width: 92%;
+            margin: auto;
+            padding: 50px;
+
+            .left{
+                width: 100%;
+                
+                h1{
+                    margin: 10px 0px;
+                }
+
+                h2{
+                    margin: 15px 0px 3px 0px;
+                }
                 
             }
 
-        }        
+            .right{
+                width: 100%;
+                padding: 10vh 20px;
+                
+
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+
+        } 
+
+        .download{
+            padding: 5vh 5vw;
+            font-size: 25px;
+
+            a{
+            background-color: #232443;
+            width: auto;
+            height: auto;
+            padding: 10px;
+            border-radius: 10px;
+            text-decoration: none;
+            color: #bebec3;
+            }
+
+            a:hover{
+                background-color: #bebec3;
+                color: #232443;
+                transition: .5s ease;
+            }
+            
+        }
     }
 }

@@ -1,10 +1,10 @@
-.samsung{
+.testimonial{
     background-position: center;
     display: flex;
     height: auto;
     
 
-    .samsungContainer{
+    .testimonialContainer{
         width: 100%;
 
         .background{
@@ -26,41 +26,6 @@
             }
         }
 
-        .content-element{
-            height: fit-content;
-            margin: auto;
-            width: 87%;
-
-            .header{
-               height: 100%; 
-
-                .services-header{
-                    h3{
-                        color: #232443;
-                        font-size: 30px;
-                        padding: 15px;
-                    }
-    
-                    p{
-                        color: #000;
-                        font-size: 20px;
-                        text-align: justify;
-                        padding: 15px;
-                    }
-                }
-            }
-
-        }
-
-        .head{
-            h1{
-                text-align: center;
-                padding: 10px;
-            }
-            p{
-                text-align: center;
-            }
-        }
         .services{
             display: flex;
             background-color: #fff;
@@ -80,16 +45,6 @@
                 position: relative;
                 cursor: pointer;
 
-                ul{
-                    li{
-                        list-style:disc;
-                        padding: 5px 0px;
-                    }
-                }
-
-                h2{
-                    text-align: left;
-                }
             }
 
         }        

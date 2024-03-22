@@ -7,10 +7,6 @@
     .videoContainer{
         width: 100%;
 
-        h2{
-            padding: 30px;
-        }
-
         .background{
             display: flex;
             height: 70vh;
@@ -84,6 +80,9 @@
                 position: relative;
                 cursor: pointer;
 
+                h2{
+                    text-align: left;
+                }
             }
 
         }        
